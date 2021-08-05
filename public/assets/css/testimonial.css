@@ -1,0 +1,69 @@
+/*----------------------------
+    Testimonial  CSS
+------------------------------*/
+
+.testimonial_section {
+    padding: 250px 0 100px;
+}
+
+.testimonial_slider {
+    margin: 30px 0 45px;
+}
+
+.testimonial_item {
+    padding: 0 60px;
+}
+
+.testimonial_item p.client_quote {
+    font-size: 24px;
+    font-family: 'Sarabun', serif;
+    color: #2e4050;
+    margin-bottom: 0;
+    min-height: 120px;
+}
+
+.client_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    float: right;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.client_img {
+    width: 90px;
+    height: 90px;
+    border: 4px solid #356b9f;
+    border-radius: 50%;
+}
+
+.client_name {
+    margin-left: 20px;
+    min-width: 150px;
+}
+
+.client_name h6 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+.client_name p {
+    font-size: 18px;
+    color: #5b6e80;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.testimonial_slider .owl-prev,
+.testimonial_slider .owl-next {
+    width: 65px;
+    height: 65px;
+}
+
+.testimonial_slider .owl-prev i,
+.testimonial_slider .owl-next i {
+    font-size: 55px;
+    color: #5b6e80;
+}

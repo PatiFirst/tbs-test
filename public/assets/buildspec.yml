@@ -1,0 +1,15 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo "install step"
+  pre_build:
+    commands:
+      - echo "pre_build step"
+  build:
+    commands:
+      - ls
+      - aws s3 sync --delete . "s3://tbs-frontend-next-2020-css"
+  post_build:
+    commands:
+      - aws cloudfront create-invalidation --distribution-id E16E25SY8COI8J --paths '/*'

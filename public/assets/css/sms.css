@@ -1,0 +1,127 @@
+/*--------------------------------
+            SMS Feature CSS
+---------------------------------*/
+
+.sms_section {
+    background-position: top;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.sms_text {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.sms_text h3,
+.sms_text h2 {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.sms_text p {
+    margin-bottom: 0;
+    font-size: 18px;
+    padding: 0px 50px;
+    font-family: 'Sarabun', serif;
+    line-height: 42px;
+    margin-bottom: 100px;
+}
+
+.sms_feature {
+    padding: 0 30px;
+}
+
+.sms_feature_item {
+    text-align: center;
+    color: #fff;
+}
+
+.sms_feature_item p {
+    font-size: 18px;
+    font-family: 'Sarabun', serif;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.sms_feature_item h3,
+.sms_feature_item>div,
+.sms_feature_item p:nth-child(2) {
+    color: #31b1e7;
+    font-size: 46px;
+    line-height: 1.2;
+}
+
+.sms_feature_item>div {
+    margin-bottom: 40px;
+}
+
+.sms_feature_item h2,
+.sms_feature_item div>.account-balance {
+    color: #31b1e7;
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 75px;
+}
+
+.sms_feature_item h3,
+.sms_feature_item>div,
+.sms_feature_item p:nth-child(2)span {
+    font-size: 18px;
+}
+
+.sms_feature_item a {
+    border: 1px solid #10457a;
+    border-radius: 13px;
+    padding: 20px 50px 20px 30px;
+    display: inline-flex;
+    font-size: 18px;
+    color: #fff;
+    line-height: 43px;
+}
+
+.sms_feature_item a img {
+    margin-right: 25px;
+}
+
+.sms_form {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.2);
+    padding: 60px 30px 70px 50px;
+    transform: translateY(80px);
+}
+
+.sms_form_text h4 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    margin: 10px 0 0 0;
+}
+
+.sms_form_text p {
+    font-size: 18px;
+    font-family: 'Sarabun', serif;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.sms_form_field input {
+    width: 65%;
+    border: 3px solid #5b6e80;
+    height: 60px;
+    border-radius: 14px;
+    padding: 15px 25px 15px 30px;
+}
+
+.sms_form_field button {
+    width: 30%;
+    margin-left: 15px;
+    margin-top: -5px;
+}

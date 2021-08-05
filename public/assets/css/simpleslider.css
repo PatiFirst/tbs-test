@@ -1,0 +1,139 @@
+/*----------------------------
+        Simple slider CSS
+------------------------------*/
+
+.simple_slider_section {
+    height: 900px;
+    padding: 120px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f0f3f7;
+    overflow: hidden;
+}
+
+.simple_slider_heading {
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+.simple_slider_heading img {
+    width: 100%;
+}
+
+.simple_slider_heading h3,
+.simple_slider_heading h2 {
+    font-size: 40px;
+    text-align: right;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 40px;
+}
+
+.simple_slider_heading h3,
+.simple_slider_heading h2 span {
+    color: #31b1e7;
+}
+
+.simple_slider_heading_img object {
+    width: 140%;
+    margin: -20% 0 0 -15%;
+}
+
+.simple_slider_wrapper .item {
+    padding: 30px 60px 60px;
+}
+
+.simple_slider_heading_wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.simple_slider_item {
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px 20px;
+    box-shadow: 0 0 42px rgba(0, 0, 0, 0.2);
+}
+
+.simple_slider_item .lazyload{
+    max-width: 120px;
+    margin: 30px auto;
+}
+
+.simple_slider_item h4 {
+    font-size: 30px;
+    color: #31b1e7;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-bottom: 20px;
+    word-break: break-all;
+}
+
+.simple_slider_item .btn.v9 {
+    box-shadow: 0 -2px 25px rgba(0, 0, 0, 0.3);
+}
+
+.simple_slider_item p {
+    font-size: 18px;
+    color: #5b6e80;
+    line-height: 1.5;
+    font-family: 'Sarabun', serif;
+    margin: 10px 0 20px;
+    min-height: 120px;
+    background-color: #f5f7f9;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.simple_slider_item a.btn.v9 {
+    transform: translateY(65px);
+    word-break: break-all;
+}
+
+.simple_slider_item p span {
+    color: #31b1e7;
+}
+
+.simple_slider_wrapper {
+    padding: 30px 0;
+}
+
+.simple_slider_wrapper .owl-nav {
+    padding-left: 15px;
+}
+
+.simple_slider_wrapper .owl-prev {
+    bottom: -60px;
+    top: auto;
+    left: 0px;
+    width: 70px;
+    height: 70px;
+}
+
+.simple_slider_wrapper .owl-next {
+    bottom: -60px;
+    top: auto;
+    left: 90px;
+    width: 70px;
+    height: 70px;
+}
+
+.simple_slider_wrapper .owl-next i {
+    font-size: 50px;
+    right: -2px;
+    top: -3px;
+}
+
+.simple_slider_wrapper .owl-prev i {
+    font-size: 50px;
+    left: -2px;
+    top: -3px;
+}
+
+.simple_slider_wrapper .owl-nav.disabled {
+    position: relative;
+    left: 36px;
+    bottom: -40px;
+}

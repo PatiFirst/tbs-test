@@ -1,0 +1,35 @@
+/*----------------------------
+        Featurer CSS
+------------------------------*/
+
+.feature_section {
+    padding: 80px 0;
+}
+
+.single_feature_item {
+    text-align: center;
+}
+
+.single_feature_item .size-img Image {
+    max-width: 40%;
+}
+
+.single_feature_text h4,
+.single_feature_text h3 {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #08101f;
+}
+
+.single_feature_text p {
+    font-size: 18px;
+    color: #5b6e80;
+    font-family: 'Sarabun', serif;
+    line-height: 1.4;
+}
+
+.single_feature_text {
+    margin: 40px 0;
+}
