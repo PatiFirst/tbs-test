@@ -59,13 +59,6 @@ const PartnerSection = () =>{
                                 <div className="lazyload size-img">
                                     <Image loader={myLoader} src="partner_logo_1.png" alt="partnerlogo1" width={190} height={130}/>
                                 </div>
-                                <img
-                                    className="lazyload size-img"
-                                    data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/partner_logo_1.png`}
-                                    alt="Image"
-                                    width="159"
-                                    height="120"
-                                />
                             </div>
                         </div>
                         <div className="item">
@@ -73,14 +66,6 @@ const PartnerSection = () =>{
                                 <div className="lazyload">
                                     <Image loader={myLoader} src="partner_logo_2.png" alt="partnerlogo2" width={190} height={130}/>
                                 </div>
-                                
-                                <img
-                                    className="lazyload"
-                                    data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/partner_logo_2.png`}
-                                    alt="Image"
-                                    width="159"
-                                    height="120"
-                                />
                             </div>
                         </div>
                         <div className="item">
@@ -88,13 +73,6 @@ const PartnerSection = () =>{
                                 <div className="lazyload">
                                     <Image loader={myLoader} src="partner_logo_3.png" alt="partnerlogo3" width={190} height={130}/>
                                 </div>
-                                <img
-                                    className="lazyload"
-                                    data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/partner_logo_3.png`}
-                                    alt="Image"
-                                    width="159"
-                                    height="120"
-                                />
                             </div>
                         </div>
                         <div className="item">
@@ -102,13 +80,6 @@ const PartnerSection = () =>{
                                 <div className="lazyload">
                                     <Image loader={myLoader} src="partner_logo_4.png" alt="partnerlogo4" width={190} height={130}/>
                                 </div>
-                                <img
-                                    className="lazyload"
-                                    data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/partner_logo_4.png`}
-                                    alt="Image"
-                                    width="159"
-                                    height="120"
-                                />
                             </div>
                         </div>
                         <div className="item">
@@ -116,13 +87,6 @@ const PartnerSection = () =>{
                                 <div className="lazyload">
                                     <Image loader={myLoader} src="partner_logo_5.png" alt="partnerlogo5" width={190} height={130}/>
                                 </div>
-                                <img
-                                    className="lazyload"
-                                    data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/partner_logo_5.png`}
-                                    alt="Image"
-                                    width="159"
-                                    height="120"
-                                />
                             </div>
                         </div>
                     </OwlCarousel>
