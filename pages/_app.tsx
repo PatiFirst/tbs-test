@@ -5,25 +5,8 @@ import { DefaultSeo } from 'next-seo';
 import { seo } from '../components/seo/defaultseo';
 import {useRouter} from 'next/router'
 import Proloader from '../components/Proloader';
-// import '../public/assets/css/style.css'
-// import '../public/assets/css/responsive.module.css'
-// import '../public/assets/css/globals.css'
-// import '../public/assets/css/backtotop.css'
-// import '../public/assets/css/proloader.css'
-// import '../public/assets/css/header.css'
-// import '../public/assets/css/hero.module.css'
-// import '../public/assets/css/partner.module.css'
-// import '../public/assets/css/feature.css'
-// import '../public/assets/css/service.css'
-// import '../public/assets/css/simpleslider.css'
-// import '../public/assets/css/globe.css'
-// import '../public/assets/css/sms.css'
-// import '../public/assets/css/testimonial.css'
-// import '../public/assets/css/edu.css'
-// import '../public/assets/css/cta.module.css'
-// import '../public/assets/css/footer.css'
-// import '../public/assets/css/bannercookie.css'
-import '../public/assets/css/bootstrap.min.css'
+import '../public/assets/css/globals.css'
+// import '../public/assets/css/bootstrap.min.css'
 
 
 

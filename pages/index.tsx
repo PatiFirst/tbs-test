@@ -2,22 +2,10 @@ import React from 'react';
 import Head from 'next/head'
 import { NextSeo } from 'next-seo';
 import { seo } from '../components/seo/home';
-// import Layout from '../components/Layout';
-// import HeroSection from '../components/home/HeroSection';
-// import PartnerSection from '../components/home/PartnerSection';
-// import FeatureSection from '../components/home/FeatureSection';
-// import ServiceSection from '../components/home/ServiceSection';
-// import SimpleSliderSection from '../components/home/SimpleSliderSection';
-// import GlobeSection from '../components/home/GlobeSection';
-// import SmsSection from '../components/home/SmsSection';
-// import TestimonialSection from '../components/home/TestimonialSection';
-// import EduSection from '../components/home/EduSection';
-// import CtaSection from '../components/home/CtaSection';
-// import BacktoTop from '../components/BacktoTop';
 import { useRouter } from 'next/router'
 import th from '../locales/th/Home.json';
 import en from '../locales/en/Home.json';
-//dynamicload
+//dynamic load
 import dynamic from 'next/dynamic'
 const Layout = dynamic(() => import('../components/Layout'))
 const HeroSection = dynamic(() => import('../components/home/HeroSection'))
@@ -57,7 +45,7 @@ const Homepage = () => {
           <HeroSection/>
           {/* <PartnerSection/> */}
           {/* <FeatureSection/> */}
-          <ServiceSection/>
+          {/* <ServiceSection/> */}
           {/* <SimpleSliderSection/>
           <GlobeSection/>
           <SmsSection/>

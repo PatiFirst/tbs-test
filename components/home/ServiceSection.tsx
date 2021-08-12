@@ -18,10 +18,19 @@ const ServiceSection = () =>{
         <div className={styles.service_section}>
         <div className="container">
             <div className="row align-items-center">
-                <div className="col-12 col-lg-7 order-lg-1 order-md-2 order-2">
+                
+                <div className="col-12 col-lg-5 order-lg-2">
+                    <div className={styles.service_img}>
+                            <div className="lazyload">
+                                <Image loader={myLoader} src="img-Hservice.svg" alt="img-Hservice" width={480} height={480}/>
+                            </div>
+                    </div>
+                </div>
+
+                <div className="col-12 col-lg-7 order-lg-1">
                     <div className={styles.service_text}>
                         <h2>{t.ServiceSection.homeserviceheader}</h2>
-                        <div className={styles.serviceTBS}>
+                        <div className={`d-flex ${styles.serviceTBS}`}>
                             <div className={styles.serviceDetail}>
                                 <div className="lazyload size-img">
                                     <Image loader={myLoader} src="icn-Hservice01.svg" alt="service1" width={320} height={320}/>
@@ -83,13 +92,6 @@ const ServiceSection = () =>{
                                 </Link>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div className="col-12 col-lg-5 order-lg-2 order-md-1 order-1">
-                    <div className={styles.service_img}>
-                            <div className="lazyload">
-                                <Image loader={myLoader} src="img-Hservice.svg" alt="img-Hservice" width={480} height={480}/>
-                            </div>
                     </div>
                 </div>
             </div>

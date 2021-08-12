@@ -37,7 +37,8 @@
     top: 58%;
   }
 
-  .sms_text h3,.sms_text h2 {
+  .sms_text h3,
+  .sms_text h2 {
     font-size: 44px;
   }
 
@@ -87,17 +88,17 @@
   .pack-text {
     top: 35%;
   }
-  .single__pricing[aria-expanded="true"] .pack-text {
+  .single__pricing[aria-expanded='true'] .pack-text {
     top: 34%;
   }
-  .single__pricing[aria-expanded="true"] .pack-text p {
+  .single__pricing[aria-expanded='true'] .pack-text p {
     font-size: 20px;
   }
-  .single__pricing[aria-expanded="true"] .pack-text b {
+  .single__pricing[aria-expanded='true'] .pack-text b {
     font-size: 24px;
   }
 
-  .single__pricing[aria-expanded="true"] .pack-img {
+  .single__pricing[aria-expanded='true'] .pack-img {
     position: absolute;
     top: 47px;
     right: 20%;
@@ -213,18 +214,18 @@
   .pack-text b {
     font-size: 18px;
   }
-  .single__pricing[aria-expanded="true"] .pack-text {
+  .single__pricing[aria-expanded='true'] .pack-text {
     top: 38%;
   }
-  .single__pricing[aria-expanded="true"] .pack-text p {
+  .single__pricing[aria-expanded='true'] .pack-text p {
     font-size: 20px;
     margin-left: -45%;
   }
-  .single__pricing[aria-expanded="true"] .pack-text b {
+  .single__pricing[aria-expanded='true'] .pack-text b {
     font-size: 24px;
   }
 
-  .single__pricing[aria-expanded="true"] .pack-img {
+  .single__pricing[aria-expanded='true'] .pack-img {
     position: absolute;
     top: 47px;
     right: 20%;
@@ -331,17 +332,17 @@
     position: absolute;
     top: 28%;
   }
-  .single__pricing[aria-expanded="true"] .pack-img {
+  .single__pricing[aria-expanded='true'] .pack-img {
     width: 70%;
     top: 69px;
   }
-  .single__pricing[aria-expanded="true"] .pack-text p {
+  .single__pricing[aria-expanded='true'] .pack-text p {
     font-size: 18px;
     width: 200%;
     margin-left: -80%;
     margin-top: -23%;
   }
-  .single__pricing[aria-expanded="true"] .pack-text b {
+  .single__pricing[aria-expanded='true'] .pack-text b {
     font-size: 20px;
   }
   .p-line-through2 .none {
@@ -768,7 +769,7 @@
   }
   .sms_form_text p {
     font-size: 18px;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     line-height: 1.2;
     margin-bottom: 0;
   }
@@ -910,7 +911,8 @@
     min-height: 60px;
     word-break: break-all;
   }
-  .single_feature_text h4 , .single_feature_text h3 {
+  .single_feature_text h4,
+  .single_feature_text h3 {
     font-size: 20px;
     line-height: 1.2;
     margin-bottom: 5px;
@@ -923,8 +925,10 @@
     height: auto;
     min-height: 750px;
   }
-  .simple_slider_heading h3, .simple_slider_heading h2,
-  .globe_text h3, .globe_text h2 {
+  .simple_slider_heading h3,
+  .simple_slider_heading h2,
+  .globe_text h3,
+  .globe_text h2 {
     font-size: 36px;
     line-height: 1.2;
   }
@@ -965,13 +969,18 @@
   .globe_img img {
     width: 70%;
   }
-  .sms_text h3,.sms_text h2 {
+  .sms_text h3,
+  .sms_text h2 {
     font-size: 34px;
   }
-  .sms_feature_item h2, .sms_feature_item div > .account-balance, .account-balance {
+  .sms_feature_item h2,
+  .sms_feature_item div > .account-balance,
+  .account-balance {
     font-size: 48px;
   }
-  .sms_feature_item h3, .sms_feature_item > div ,.sms_feature_item p:nth-child(2){
+  .sms_feature_item h3,
+  .sms_feature_item > div,
+  .sms_feature_item p:nth-child(2) {
     font-size: 40px;
     line-height: 1.2;
   }
@@ -984,7 +993,7 @@
   }
   .testimonial_item p.client_quote {
     font-size: 24px;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     color: #2e4050;
     margin-bottom: 0;
     min-height: 130px;
@@ -1018,7 +1027,7 @@
     font-size: 16px;
     line-height: 1.4;
     color: #f1f1f1;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     font-weight: 500;
     margin-bottom: 0;
   }
@@ -1027,7 +1036,8 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
-  .edu_text h3, .edu_text h2 {
+  .edu_text h3,
+  .edu_text h2 {
     font-size: 36px;
     margin-bottom: 20px;
   }
@@ -1077,7 +1087,7 @@
     color: #5b6e80;
     font-size: 18px;
     line-height: 1.4;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
   }
   .sms_text p {
     margin: 30px auto 70px;
@@ -1109,7 +1119,7 @@
   }
   .service_feature_text p {
     font-size: 18px;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     line-height: 1.5;
     padding-right: 20px;
   }
@@ -1127,7 +1137,7 @@
   .pricing_box p {
     font-size: 20px;
     color: #2e4050;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     line-height: 1.3;
     margin-bottom: 40px;
     text-align: center;
@@ -1179,7 +1189,7 @@
   .hero_section.v3 .hero_top_one {
     padding: 70px 0;
   }
-  h1.section__title{
+  h1.section__title {
     font-size: 40px;
     line-height: 50px;
     margin-top: 0px;
@@ -1212,8 +1222,10 @@
   .cta_section.v2 .cta-text h3 {
     font-size: 40px;
   }
-  .newsletter_text h3, .newsletter_text h2,
-  .simple_icon_title h3,.simple_icon_title h2,
+  .newsletter_text h3,
+  .newsletter_text h2,
+  .simple_icon_title h3,
+  .simple_icon_title h2,
   .track_text h3 {
     font-size: 36px;
     line-height: 1.3;
@@ -1229,7 +1241,9 @@
     font-size: 1.75rem;
   }
 
-  .newsletter_text h1, .simple_icon_title h1, .track_text h1.edit_text_seo {
+  .newsletter_text h1,
+  .simple_icon_title h1,
+  .track_text h1.edit_text_seo {
     font-size: 36px;
     line-height: 1.3;
     margin-bottom: 25px;
@@ -1334,7 +1348,7 @@
   .pricing__content span {
     font-size: 16px;
   }
-  .single__pricing[aria-expanded="true"] .left__box h3 {
+  .single__pricing[aria-expanded='true'] .left__box h3 {
     color: #fff;
     font-size: 48px;
     margin-top: 20px;
@@ -1387,7 +1401,7 @@
   .price_plan h2 span {
     font-size: 16px;
     color: #5b6e80;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     margin-left: 5px !important;
   }
   .hero_section.v3 .hero_text_one h1 {
@@ -1429,7 +1443,7 @@
     color: #2e4050;
   }
   .track_box p {
-    font-family: "Sarabun", Arial, sans-serif;
+    font-family: 'Sarabun', Arial, sans-serif;
     font-size: 16px;
   }
   .simple_icon_title.dev-page h3 {
@@ -1543,7 +1557,7 @@
     font-size: 28px;
     color: #fff;
     font-weight: bold;
-    font-family: "Sarabun", sans-serif;
+    font-family: 'Sarabun', sans-serif;
     margin-top: 40px;
     margin-bottom: 30px;
   }
@@ -1593,7 +1607,8 @@
     width: 7px;
     height: 15px;
   }
-  .single_feature_text h4 , .single_feature_text h3 {
+  .single_feature_text h4,
+  .single_feature_text h3 {
     font-size: 18px;
   }
   .single_feature_text p {
@@ -1628,8 +1643,10 @@
     width: 150%;
     margin: -15% 0 0 -28%;
   }
-  .simple_slider_heading h3, .simple_slider_heading h2,
-  .globe_text h3, .globe_text h2 {
+  .simple_slider_heading h3,
+  .simple_slider_heading h2,
+  .globe_text h3,
+  .globe_text h2 {
     font-size: 30px;
     line-height: 1.2;
   }
@@ -1642,16 +1659,19 @@
   .sms_text {
     margin-bottom: 30px;
   }
-  .sms_text h3,.sms_text h2 {
+  .sms_text h3,
+  .sms_text h2 {
     font-size: 30px;
   }
   .sms_feature_item p {
     font-size: 16px;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     line-height: 1.4;
     margin-bottom: 10px;
   }
-  .sms_feature_item h2, .sms_feature_item div > .account-balance, .account-balance {
+  .sms_feature_item h2,
+  .sms_feature_item div > .account-balance,
+  .account-balance {
     font-size: 40px;
     margin-bottom: 45px;
   }
@@ -1679,7 +1699,7 @@
   }
   .testimonial_item p.client_quote {
     font-size: 20px;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     color: #2e4050;
     margin-bottom: 0;
     min-height: 120px;
@@ -1699,7 +1719,8 @@
   .client_name p {
     font-size: 16px;
   }
-  .edu_text h3, .edu_text h2 {
+  .edu_text h3,
+  .edu_text h2 {
     font-size: 30px;
     margin-bottom: 10px;
   }
@@ -1709,7 +1730,7 @@
     line-height: 1.3;
     margin-bottom: 0;
   }
-    .hero_text_one span {
+  .hero_text_one span {
     font-size: 24px;
   }
 
@@ -1718,7 +1739,7 @@
     line-height: 1.2;
   }
 
-    .hero_text_one h1 span {
+  .hero_text_one h1 span {
     font-size: 24px;
   }
   .hero_text_one p {
@@ -1760,7 +1781,7 @@
   .simple_feature_list li p {
     display: inline-block;
     font-size: 18px;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     padding-left: 10px;
     min-width: 220px;
   }
@@ -1785,7 +1806,7 @@
   .slider_item p {
     font-size: 16px;
     color: #5b6e80;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     line-height: 1.5;
     margin: 30px 0 30px;
   }
@@ -1797,12 +1818,12 @@
     font-weight: 400;
     line-height: 1.3;
     margin-right: 50px;
-    font-family: "Sarabun", sans-serif;
+    font-family: 'Sarabun', sans-serif;
   }
   .btn.v4 {
     font-size: 14px;
   }
-  h1.section__title{
+  h1.section__title {
     font-size: 36px;
     line-height: 50px;
     margin-bottom: 20px;
@@ -1908,7 +1929,7 @@
   .left__box h3 {
     line-height: 45px;
   }
-  .single__pricing[aria-expanded="true"] .left__box h3 {
+  .single__pricing[aria-expanded='true'] .left__box h3 {
     font-size: 36px;
   }
   .sender__box1 {
@@ -1930,8 +1951,10 @@
     font-size: 16px;
     border-left: 4px solid #31b1e7;
   }
-  .newsletter_text h3, .newsletter_text h2,
-  .simple_icon_title h3,.simple_icon_title h2,
+  .newsletter_text h3,
+  .newsletter_text h2,
+  .simple_icon_title h3,
+  .simple_icon_title h2,
   .track_text h3 {
     font-size: 30px;
     line-height: 1.2;
@@ -1944,7 +1967,7 @@
     font-size: 18px;
     line-height: 1.7;
     color: #5b6e80;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
   }
   .check_text p {
     font-size: 14px;
@@ -2097,19 +2120,19 @@
     margin-left: -122%;
     margin-top: 40%;
   }
-  .single__pricing[aria-expanded="true"] .pack-text {
+  .single__pricing[aria-expanded='true'] .pack-text {
     top: 39%;
   }
   .pack-text p {
     margin-left: -54%;
   }
-  .single__pricing[aria-expanded="true"] .pack-text b {
+  .single__pricing[aria-expanded='true'] .pack-text b {
     font-size: 20px;
   }
-  .single__pricing[aria-expanded="true"] .pack-text p {
+  .single__pricing[aria-expanded='true'] .pack-text p {
     font-size: 16px;
   }
-  .single__pricing[aria-expanded="true"] .pack-img {
+  .single__pricing[aria-expanded='true'] .pack-img {
     right: 26%;
     top: 60px;
   }
@@ -2207,7 +2230,8 @@
     margin-top: 30px;
   }
 
-  .globe_text h3, .globe_text h2 {
+  .globe_text h3,
+  .globe_text h2 {
     font-size: 32px;
   }
 
@@ -2346,7 +2370,8 @@
   }
   h2.condition-header {
     font-size: 38px;
-  }.condition-text h2 {
+  }
+  .condition-text h2 {
     font-size: 22px;
   }
   .condition-text h2.textHeadCondition {
@@ -2412,7 +2437,7 @@
   .pricing_feature li p {
     padding-left: 12px;
     font-size: 15px;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     color: #5b6e80;
     margin-bottom: 0;
     line-height: 1.3;
@@ -2428,14 +2453,14 @@
   .price_plan span {
     font-size: 16px;
     color: #5b6e80;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     font-weight: 400;
     padding-left: 1rem;
   }
   .price_plan h2 span {
     font-size: 16px;
     color: #5b6e80;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     margin-left: -20px;
   }
   .secSliderResource {
@@ -2455,7 +2480,7 @@
     min-height: 150px;
   }
   .track_box p {
-    font-family: "Sarabun", Arial, sans-serif;
+    font-family: 'Sarabun', Arial, sans-serif;
     font-size: 16px;
   }
 }
@@ -2557,13 +2582,13 @@
     top: 33%;
     right: 24%;
   }
-  .single__pricing[aria-expanded="true"] .pack-text b {
+  .single__pricing[aria-expanded='true'] .pack-text b {
     font-size: 22px;
   }
-  .single__pricing[aria-expanded="true"] .pack-text p {
+  .single__pricing[aria-expanded='true'] .pack-text p {
     font-size: 15px;
   }
-  .single__pricing[aria-expanded="true"] .pack-text {
+  .single__pricing[aria-expanded='true'] .pack-text {
     top: 33%;
   }
   .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
@@ -2601,7 +2626,7 @@
     line-height: 1.2;
   }
 
-      .hero_text_one h1 span {
+  .hero_text_one h1 span {
     font-size: 24px;
   }
 
@@ -2749,7 +2774,8 @@
     font-size: 22px;
   }
 
-  .edu_text h3, .edu_text h2 {
+  .edu_text h3,
+  .edu_text h2 {
     font-size: 28px;
   }
 
@@ -2779,7 +2805,8 @@
     font-size: 36px;
   }
 
-  .single_feature_text h4 , .single_feature_text h3 {
+  .single_feature_text h4,
+  .single_feature_text h3 {
     font-size: 18px;
   }
 
@@ -2811,8 +2838,10 @@
     min-height: 340px;
   }
 
-  .newsletter_text h3, .newsletter_text h2,
-  .simple_icon_title h3,.simple_icon_title h2,
+  .newsletter_text h3,
+  .newsletter_text h2,
+  .simple_icon_title h3,
+  .simple_icon_title h2,
   .track_text h3 {
     font-size: 30px;
   }
@@ -2832,7 +2861,8 @@
     font-size: 28px;
   }
 
-  .simple_slider_heading h3, .simple_slider_heading h2 {
+  .simple_slider_heading h3,
+  .simple_slider_heading h2 {
     font-size: 30px;
   }
 
@@ -2855,7 +2885,8 @@
     margin: 0 30px;
   }
 
-  .globe_text h3, .globe_text h2 {
+  .globe_text h3,
+  .globe_text h2 {
     font-size: 30px;
   }
 
@@ -2866,19 +2897,24 @@
     padding: 60px 0;
     position: relative;
   }
-  .sms_feature_item h2, .sms_feature_item div > .account-balance, .account-balance {
+  .sms_feature_item h2,
+  .sms_feature_item div > .account-balance,
+  .account-balance {
     color: #31b1e7;
     font-size: 48px;
     line-height: 1.2;
     margin-bottom: 75px;
   }
-  .sms_text h3,.sms_text h2 {
+  .sms_text h3,
+  .sms_text h2 {
     font-size: 30px;
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 20px;
   }
-  .sms_feature_item h2, .sms_feature_item div > .account-balance, .account-balance {
+  .sms_feature_item h2,
+  .sms_feature_item div > .account-balance,
+  .account-balance {
     color: #31b1e7;
     font-size: 48px;
     line-height: 1.2;
@@ -3023,11 +3059,11 @@
   .single__pricing.active .left__box {
     padding-left: 25px;
   }
-  .single__pricing[aria-expanded="true"] .left__box h3 {
+  .single__pricing[aria-expanded='true'] .left__box h3 {
     font-size: 60px;
     margin-top: 80px;
   }
-  .single__pricing[aria-expanded="true"] .left__box {
+  .single__pricing[aria-expanded='true'] .left__box {
     padding-left: 70px;
   }
   .nice-select:after {
@@ -3049,7 +3085,7 @@
     left: 6%;
     font-size: 14px;
   }
-  h1.section__title{
+  h1.section__title {
     font-size: 36px;
     margin-top: 0px;
   }
@@ -3072,7 +3108,7 @@
     display: none;
   }
   .track_box p {
-    font-family: "Sarabun", Arial, sans-serif;
+    font-family: 'Sarabun', Arial, sans-serif;
     font-size: 16px;
     min-height: 80px;
   }
@@ -3098,7 +3134,7 @@
     opacity: 0;
   }
   .track_box p {
-    font-family: "Sarabun", Arial, sans-serif;
+    font-family: 'Sarabun', Arial, sans-serif;
     font-size: 16px;
   }
   .mobile-bar.js-menu-toggle {
@@ -3198,7 +3234,8 @@
     text-align: right;
   }
 
-  .edu_text h3, .edu_text h2 {
+  .edu_text h3,
+  .edu_text h2 {
     font-size: 25px;
   }
 
@@ -3556,7 +3593,8 @@
     max-width: 80%;
   }
 
-  .single_feature_text h4 , .single_feature_text h3 {
+  .single_feature_text h4,
+  .single_feature_text h3 {
     font-size: 16px;
   }
 
@@ -3600,8 +3638,10 @@
     margin-bottom: 30px;
   }
 
-  .newsletter_text h3, .newsletter_text h2,
-  .simple_icon_title h3,.simple_icon_title h2,
+  .newsletter_text h3,
+  .newsletter_text h2,
+  .simple_icon_title h3,
+  .simple_icon_title h2,
   .track_text h3 {
     font-size: 29px;
   }
@@ -3659,7 +3699,8 @@
     margin-top: 30px;
   }
 
-  .globe_text h3, .globe_text h2 {
+  .globe_text h3,
+  .globe_text h2 {
     font-size: 32px;
   }
 
@@ -3681,7 +3722,8 @@
     padding: 30px 25px 60px;
   }
 
-  .simple_slider_heading h3, .simple_slider_heading h2 {
+  .simple_slider_heading h3,
+  .simple_slider_heading h2 {
     font-size: 28px;
     margin-bottom: 0px;
   }
@@ -3800,7 +3842,7 @@
   .hero_text_one h1 {
     font-size: 50px;
   }
-      .hero_text_one h1 span {
+  .hero_text_one h1 span {
     font-size: 26px;
   }
   .hero_text_one p {
@@ -3819,11 +3861,11 @@
   .single__pricing.active .left__box {
     padding-left: 25px;
   }
-  .single__pricing[aria-expanded="true"] .left__box h3 {
+  .single__pricing[aria-expanded='true'] .left__box h3 {
     font-size: 50px;
     margin-top: 80px;
   }
-  .single__pricing[aria-expanded="true"] .left__box {
+  .single__pricing[aria-expanded='true'] .left__box {
     padding-left: 35px;
   }
   .nice-select:after {
@@ -3831,7 +3873,7 @@
     height: 10px;
     right: 17px;
   }
-  h1.section__title{
+  h1.section__title {
     margin-bottom: 20px;
     margin-top: 0px;
   }
@@ -3845,7 +3887,8 @@
   .edu_text {
     text-align: center;
   }
-  .edu_text h3, .edu_text h2 {
+  .edu_text h3,
+  .edu_text h2 {
     margin-bottom: 15px;
   }
   .testimonial_item p.client_quote {
@@ -3870,7 +3913,7 @@
   .page_wrapper {
     overflow-x: hidden !important;
   }
-  h1.section__title{
+  h1.section__title {
     font-size: 36px;
     margin-top: 0px;
   }
@@ -3889,19 +3932,19 @@
   .pack-text p {
     margin-left: 16%;
   }
-  .single__pricing[aria-expanded="true"] .pack-text p {
+  .single__pricing[aria-expanded='true'] .pack-text p {
     margin-left: -34%;
   }
-  .single__pricing[aria-expanded="true"] .pack-img img {
+  .single__pricing[aria-expanded='true'] .pack-img img {
     max-width: 325%;
     margin-top: 40%;
     margin-left: -59%;
   }
-  .single__pricing[aria-expanded="true"] .pack-text {
+  .single__pricing[aria-expanded='true'] .pack-text {
     top: 30%;
     left: 63%;
   }
-  .single__pricing[aria-expanded="true"] .pack-text b {
+  .single__pricing[aria-expanded='true'] .pack-text b {
     font-size: 20px;
   }
   .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
@@ -3986,7 +4029,7 @@
     margin-bottom: 150px; */
     height: 300px;
     margin-bottom: 260px;
-    margin-top: 5px;    
+    margin-top: 5px;
     background-image: url(../img/mobile/hero_img_2.webp);
   }
 
@@ -4054,13 +4097,14 @@
     width: 46%;
     margin: 0 2%;
   }
-  .single_feature_text h4 , .single_feature_text h3 {
+  .single_feature_text h4,
+  .single_feature_text h3 {
     font-size: 20px;
   }
   .single_feature_text p {
     font-size: 16px;
     color: #5b6e80;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     line-height: 1.4;
   }
   .section_title {
@@ -4113,7 +4157,7 @@
     font-size: 34px;
   }
 
-      .hero_text_one h1 span {
+  .hero_text_one h1 span {
     font-size: 18px;
   }
 
@@ -4196,7 +4240,8 @@
     height: 750px;
   }
 
-  .sms_text h3,.sms_text h2 {
+  .sms_text h3,
+  .sms_text h2 {
     font-size: 20px;
   }
 
@@ -4259,7 +4304,9 @@
     margin-bottom: 10px;
   }
 
-  .sms_feature_item h2, .sms_feature_item div > .account-balance, .account-balance {
+  .sms_feature_item h2,
+  .sms_feature_item div > .account-balance,
+  .account-balance {
     font-size: 42px;
     margin-bottom: 40px;
   }
@@ -4465,7 +4512,7 @@
     font-size: 16px;
   }
 
-    .footer_contact a:last-child {
+  .footer_contact a:last-child {
     margin-left: 0;
   }
 
@@ -4585,7 +4632,8 @@
     height: 600px;
   }
 
-  .edu_text h3, .edu_text h2 {
+  .edu_text h3,
+  .edu_text h2 {
     font-size: 24px;
   }
 
@@ -4662,8 +4710,10 @@
     margin-bottom: 30px;
   }
 
-  .newsletter_text h3, .newsletter_text h2,
-  .simple_icon_title h3,.simple_icon_title h2,
+  .newsletter_text h3,
+  .newsletter_text h2,
+  .simple_icon_title h3,
+  .simple_icon_title h2,
   .track_text h3 {
     font-size: 24px;
   }
@@ -4763,7 +4813,8 @@
     margin-top: 30px;
   }
 
-  .globe_text h3, .globe_text h2 {
+  .globe_text h3,
+  .globe_text h2 {
     font-size: 22px;
   }
 
@@ -4784,7 +4835,8 @@
     padding-bottom: 0px;
   }
 
-  .simple_slider_heading h3, .simple_slider_heading h2 {
+  .simple_slider_heading h3,
+  .simple_slider_heading h2 {
     font-size: 28px;
     margin-bottom: 0px;
     text-align: center;
@@ -5031,7 +5083,7 @@
     text-align: left;
   }
 
-  h1.section__title{
+  h1.section__title {
     font-size: 33px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -5196,7 +5248,7 @@
   }
   .left__box::before {
     position: absolute;
-    content: "";
+    content: '';
     background-image: url(../img/pricing__shape.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -5249,7 +5301,7 @@
   }
   .pricing__content::before {
     position: absolute;
-    content: "";
+    content: '';
     background-color: #a6b0b9;
     width: 1px;
     height: 100%;
@@ -5274,13 +5326,13 @@
     display: none !important;
   }
 
-  .single__pricing[aria-expanded="true"] .left__box {
+  .single__pricing[aria-expanded='true'] .left__box {
     width: 100%;
     margin-left: 0;
     padding-left: 0;
   }
 
-  .single__pricing[aria-expanded="true"] .pricing__content {
+  .single__pricing[aria-expanded='true'] .pricing__content {
     width: 100%;
   }
   .globe_section {
@@ -5312,10 +5364,10 @@
     width: 100%;
   }
 
-  .input-twocolumn div.input-with-error select[name="branch"]{
-  display:none;
-  visibility: hidden;
-}
+  .input-twocolumn div.input-with-error select[name='branch'] {
+    display: none;
+    visibility: hidden;
+  }
 
   /* Modal Style */
   .pass-style {
@@ -5394,7 +5446,7 @@
   .pricing_feature li p {
     padding-left: 12px;
     font-size: 15px;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     color: #5b6e80;
     margin-bottom: 0;
     line-height: 1.3;
@@ -5410,13 +5462,13 @@
   .price_plan span {
     font-size: 16px;
     color: #5b6e80;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     font-weight: 400;
   }
   .price_plan h2 span {
     font-size: 16px;
     color: #5b6e80;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     margin-left: -20px;
   }
   .simple_icon_section {
@@ -5447,7 +5499,7 @@
     margin: 20px auto;
   }
   .track_box p {
-    font-family: "Sarabun", Arial, sans-serif;
+    font-family: 'Sarabun', Arial, sans-serif;
     font-size: 16px;
   }
   .spaceAdsLogin {
@@ -5505,13 +5557,14 @@
   .single_feature_text {
     margin: 20px 0;
   }
-  .single_feature_text h4 , .single_feature_text h3 {
+  .single_feature_text h4,
+  .single_feature_text h3 {
     font-size: 16px;
   }
   .single_feature_text p {
     font-size: 12px;
     color: #5b6e80;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     line-height: 1.4;
   }
   .simple_slider_item img.lazyloaded,
@@ -5525,7 +5578,8 @@
   .client_img img {
     display: block;
   }
-  .simple_slider_heading h3, .simple_slider_heading h2 {
+  .simple_slider_heading h3,
+  .simple_slider_heading h2 {
     font-size: 24px;
     margin-bottom: 0px;
     text-align: center;
@@ -5644,14 +5698,19 @@
     left: -2px;
     top: -1px;
   }
-  .sms_text h3,.sms_text h2 {
+  .sms_text h3,
+  .sms_text h2 {
     font-size: 24px;
   }
-  .sms_feature_item h2, .sms_feature_item div > .account-balance, .account-balance {
+  .sms_feature_item h2,
+  .sms_feature_item div > .account-balance,
+  .account-balance {
     font-size: 30px;
     margin-bottom: 40px;
   }
-  .sms_feature_item h3, .sms_feature_item > div ,.sms_feature_item p:nth-child(2){
+  .sms_feature_item h3,
+  .sms_feature_item > div,
+  .sms_feature_item p:nth-child(2) {
     color: #31b1e7;
     font-size: 30px;
     line-height: 1.2;
@@ -5720,7 +5779,8 @@
     margin-bottom: 30px;
     text-align: center;
   }
-  .edu_text h3, .edu_text h2 {
+  .edu_text h3,
+  .edu_text h2 {
     margin-bottom: 10px;
     padding: 0 20px;
   }
@@ -5826,7 +5886,7 @@
   }
   .service_feature_item p {
     font-size: 14px;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     font-weight: 500;
     line-height: 1.4;
     margin-bottom: 0;
@@ -5916,7 +5976,7 @@
   .slider_item p {
     font-size: 16px;
     color: #5b6e80;
-    font-family: "Sarabun", serif;
+    font-family: 'Sarabun', serif;
     line-height: 1.5;
     margin: 34px 0 50px;
   }
@@ -5979,7 +6039,8 @@
     margin-top: 40px;
     text-align: center;
   }
-  h3.headPricing,h1.headPricing  {
+  h3.headPricing,
+  h1.headPricing {
     font-size: 30px;
     margin-top: 40px;
     text-align: center;
@@ -6038,7 +6099,7 @@
   .pricing__bottom__content p {
     font-size: 12px;
     color: #fff;
-    font-family: "Sarabun", sans-serif;
+    font-family: 'Sarabun', sans-serif;
     margin-top: 10px;
     margin-bottom: 30px;
     text-align: left;
@@ -6063,7 +6124,7 @@
   .hero_section.v3 .hero_top_one.paymentPage {
     padding: 60px 0;
   }
-  h1.section__title{
+  h1.section__title {
     font-size: 24px;
     margin-bottom: 20px;
     line-height: 46px;
@@ -6275,7 +6336,7 @@
   .box__wrapper .info__box.new__info__box h5 {
     font-size: 18px;
     line-height: 24px;
-    font-family: "Sarabun", sans-serif;
+    font-family: 'Sarabun', sans-serif;
     font-weight: bold;
     margin-top: 10px;
   }
@@ -6695,14 +6756,14 @@
     line-height: 1.2;
     text-align: center;
   }
-  
+
   .special-price p.head-price {
     font-weight: 600;
     font-size: 20px;
     font-family: 'Prompt', sans-serif;
     margin-top: 40px;
   }
-  
+
   .special-price p span {
     font-size: 48px;
     font-weight: 600;
@@ -6723,7 +6784,12 @@
     width: 40%;
     margin: 2% 3%;
   }
-} 
+}
+
+
+
+
+
 br.tep_menu_support_pay {
   display: none;
 }
@@ -6808,7 +6874,8 @@ br.tep_menu_support_pay {
   .cta_section {
     padding: 60px 0;
   }
-  .edu_text h3, .edu_text h2 {
+  .edu_text h3,
+  .edu_text h2 {
     padding: 0 10px;
     font-size: 20px;
   }

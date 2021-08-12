@@ -29,20 +29,23 @@ class MyDocument extends Document {
                         rel="stylesheet"
                         href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500;600;700;800&display=swap"
                     /> */}
+
                     <link
-                        rel="stylesheet"
                         href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800&display=swap"
+                        rel="stylesheet"
                     />
 
                     <link
                         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                         rel="stylesheet"
                     />
+
                     {/* <link
                         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css"
                         rel="stylesheet"
                     /> */}
-                    <link
+
+                    {/* <link
                         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
                         rel="stylesheet"
                     />
@@ -53,7 +56,8 @@ class MyDocument extends Document {
                     <link
                         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
                         rel="stylesheet"
-                    />
+                    /> */}
+
                     {/* <link
                         href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/css/nice-select.css`}
                         rel="stylesheet"
@@ -80,70 +84,19 @@ class MyDocument extends Document {
                         sizes="60x60"
                         href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/apple-icon-60x60.png`}
                     />
-                    {/* 
-                    <link
-                        rel="apple-touch-icon"
-                        sizes="72x72"
-                        href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/apple-icon-72x72.png`}
-                    />
-                    <link
-                        rel="apple-touch-icon"
-                        sizes="76x76"
-                        href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/apple-icon-76x76.png`}
-                    />
-                    <link
-                        rel="apple-touch-icon"
-                        sizes="114x114"
-                        href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/apple-icon-114x114.png`}
-                    />
-                    <link
-                        rel="apple-touch-icon"
-                        sizes="120x120"
-                        href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/apple-icon-120x120.png`}
-                    />
-                    <link
-                        rel="apple-touch-icon"
-                        sizes="144x144"
-                        href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/apple-icon-144x144.png`}
-                    />
-                    <link
-                        rel="apple-touch-icon"
-                        sizes="152x152"
-                        href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/apple-icon-152x152.png`}
-                    />
-                    <link
-                        rel="apple-touch-icon"
-                        sizes="180x180"
-                        href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/apple-icon-180x180.png`}
-                    /> */}
                     <link
                         rel="icon"
                         type="image/png"
                         sizes="192x192"
                         href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/android-icon-192x192.png`}
                     />
-                    {/* <link
-                        rel="icon"
-                        type="image/png"
-                        sizes="32x32"
-                        href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/favicon-32x32.png`}
-                    /> */}
                     <link
                         rel="icon"
                         type="image/png"
                         sizes="96x96"
                         href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/favicon-96x96.png`}
                     />
-                    {/* <link
-                        rel="icon"
-                        type="image/png"
-                        sizes="16x16"
-                        href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/favicon-16x16.png`}
-                    /> */}
-                    {/* <link
-                        rel="manifest"
-                        href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/manifest.json`}
-                    /> */}
+
                     <meta name="msapplication-TileColor" content="#ffffff" />
                     <meta
                         name="msapplication-TileImage"

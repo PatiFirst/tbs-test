@@ -4,8 +4,8 @@ import { useRouter } from 'next/router'
 import th from '../../locales/th/Home.json';
 import en from '../../locales/en/Home.json';
 import styles from '../../public/assets/css/hero.module.css'
-import cta_style from '../../public/assets/css/cta.module.css'
-import header from '../../public/assets/css/header.module.css'
+// import cta_style from '../../public/assets/css/cta.module.css'
+// import header from '../../public/assets/css/header.module.css'
 
 
 const HeroSectionV2 = () => {
@@ -26,11 +26,11 @@ const HeroSectionV2 = () => {
                         <p>
                             {t.HeroSection['SMS sending service capable of quick sending with reliable stability. Consultation is available at every step.']}
                         </p>
-                        <ul className={cta_style.cta_btn}>
+                        <ul className={styles.hero_btn}>
                             <li>
                                 <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_ACCOUNT}/register`}> 
                                 {/* <a className="btn btn-primary"> */}
-                                <a className={`${header.btn} ${header.v3}`}>
+                                <a className={`${styles.btn} ${styles.v3}`}>
                                     {t.HeroSection['Try SMS sending for free']}
                                 </a>
                                 </Link>
@@ -38,7 +38,7 @@ const HeroSectionV2 = () => {
                             <li>
                                 <Link href="/pricing">
                                     {/* <a className="btn btn-primary"> */}
-                                    <a className={`${header.btn} ${header.v5}`}>
+                                    <a className={`${styles.btn} ${styles.v5}`}>
                                         {t.HeroSection['View package prices']}
 
                                     </a>
