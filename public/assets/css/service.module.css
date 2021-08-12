@@ -85,3 +85,48 @@
 .service_text .serviceTBS h2 span {
   color: #31b1e7;
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    div.row.align-items-center{
+        width: 1024px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .service_img {
+        text-align: center;
+        margin: 20px auto;
+        width: 50%;
+      }
+      .serviceTBS, .service_text{
+          width: 690px;
+      }
+      .serviceTBS .serviceDetail div Image {
+        width: 50%;
+        margin: 15px auto;
+      }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .service_section {
+      padding: 40px 0;
+      position: relative;
+    }
+    .service_img {
+      text-align: center;
+      margin: 20px auto;
+      width: 80%;
+    }
+    .serviceTBS{
+      width: 81%;
+      margin: 0;
+    }
+    .serviceTBS .serviceDetail {
+      flex: initial;
+      width: 40%;
+      margin: 2% 3%;
+    }
+    .serviceTBS .serviceDetail h3{
+        font-size: 16px;
+    }
+}

@@ -16,8 +16,8 @@ const HeroSectionV2 = () => {
         <div className={`${styles.hero_section} ${styles.v2}`}>
         <div className="container">
             <div className={`row align-item-center ${styles.hero_top_one}`}>
-                <div className="col-lg-6 col-md-12 col-12 order-lg-1 order-md-2 order-2">
-                    <div className={styles.hero_text_one}>
+                <div className={`col-lg-6 col-md-12 col-12 order-lg-1 order-2 ${styles.hero_text_one}`}>
+                    {/* <div className={styles.hero_text_one}> */}
                         <h1 dangerouslySetInnerHTML={{
                                 __html:
                                 t.HeroSection['Meeting every one of your SMS sending needs.']
@@ -45,7 +45,7 @@ const HeroSectionV2 = () => {
                                 </Link>
                             </li>
                         </ul>
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
         </div>
