@@ -25,10 +25,10 @@ class MyDocument extends Document {
                         href="https://fonts.googleapis.com/"
                         crossOrigin="true"
                     /> */}
-                    {/* <link
+                    <link
                         rel="stylesheet"
                         href="https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500;600;700;800&display=swap"
-                    /> */}
+                    />
 
                     <link
                         href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800&display=swap"
