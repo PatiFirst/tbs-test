@@ -89,7 +89,7 @@ class MyDocument extends Document {
                         type="image/png"
                         sizes="192x192"
                         href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/android-icon-192x192.png`}
-                    /> /*}
+                    /> */}
                     <link
                         rel="icon"
                         type="image/png"
