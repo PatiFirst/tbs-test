@@ -24,7 +24,7 @@ module.exports = {
     //   },
     // ]
   },
-  img: {
+  images: {
     domains: ["assets.thaibulksms.com"],
   },
 }
