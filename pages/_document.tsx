@@ -45,7 +45,7 @@ class MyDocument extends Document {
                         rel="stylesheet"
                     /> */}
 
-                    {/* <link
+                    <link
                         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
                         rel="stylesheet"
                     />
@@ -56,7 +56,7 @@ class MyDocument extends Document {
                     <link
                         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
                         rel="stylesheet"
-                    /> */}
+                    />
 
                     {/* <link
                         href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/css/nice-select.css`}
@@ -84,7 +84,7 @@ class MyDocument extends Document {
                         sizes="60x60"
                         href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/apple-icon-60x60.png`}
                     />
-                    <link
+                    {/* <link
                         rel="icon"
                         type="image/png"
                         sizes="192x192"
@@ -95,7 +95,7 @@ class MyDocument extends Document {
                         type="image/png"
                         sizes="96x96"
                         href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/favicon-96x96.png`}
-                    />
+                    /> */}
 
                     <meta name="msapplication-TileColor" content="#ffffff" />
                     <meta
