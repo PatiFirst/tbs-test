@@ -84,12 +84,12 @@ class MyDocument extends Document {
                         sizes="60x60"
                         href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/apple-icon-60x60.png`}
                     />
-                    <link
+                    {/* <link
                         rel="icon"
                         type="image/png"
                         sizes="192x192"
                         href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img-fav/android-icon-192x192.png`}
-                    />
+                    /> */}
                     <link
                         rel="icon"
                         type="image/png"
