@@ -15,10 +15,7 @@ const CtaSection = () =>{
         <div className={styles.cta_section}>
         <div className="container">
             <div className="row align-items-center">
-                <div className="col-xl-12"></div>
-            </div>
-            <div className="row align-items-center">
-                <div className="col-xl-6 col-lg-12">
+                <div className="col-12 col-xl-6">
                     <div className={styles.cta_text}>
                         <h3 dangerouslySetInnerHTML={{
                                 __html: t.CtaSection["Improve the effectiveness of<br/>your business With SMS from ThaiBulkSMS"],
@@ -26,18 +23,18 @@ const CtaSection = () =>{
                         </h3>
                     </div>
                 </div>
-                <div className="col-xl-6 col-lg-12">
+                <div className="col-12 col-xl-6">
                     <ul className={`${styles.cta_btn} ${styles.before_footer}`}>
                         <li>
                             <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_ACCOUNT}/register/`}>
-                                <a className="btn v3">
+                                <a className={`btn v3 ${styles.cta_btn_v3}`}>
                                     {t.CtaSection["Try SMS sending for free"]}
                                 </a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/pricing">
-                                <a className="btn v5">
+                                <a className={`btn v5 ${styles.cta_btn_v5}`}>
                                     {t.CtaSection["View package prices"]}
                                 </a>
                             </Link>

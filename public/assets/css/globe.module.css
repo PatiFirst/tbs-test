@@ -66,7 +66,16 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .globe_text h2{
+    font-size: 30px;
+  }
+  .globe_text p{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .globe_text {
       text-align: center;
       margin-top: 30px;

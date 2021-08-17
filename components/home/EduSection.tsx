@@ -19,8 +19,8 @@ const EduSection = () => {
         <div className={styles.edu_section}>
         <div className="container">
             <div className="row align-items-center">
-                <div className="col-lg-6 col-md-12 col-sm-12 col-md-push-6 order-1 order-xl-2">
-                    <div className={styles.edu_text}>
+                <div className="col-lg-6 col-md-12 col-sm-12 col-md-push-6 order-1 order-lg-2">
+                    <div className={`${styles.edu_text} mb-3`}>
                         <h2>
                             {t.EduSection["Interesting tips and knowledge regarding SMS and marketing"]}
                         </h2>
@@ -30,7 +30,7 @@ const EduSection = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="col-lg-6 col-md-12 col-sm-12 col-md-pull-6 order-2 order-xl-1">
+                <div className="col-lg-6 col-md-12 col-sm-12 col-md-pull-6 order-2 order-lg-1">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6 offset-md-3 offset-lg-0 col-sm-10 offset-sm-1">
                             <div className={styles.edu_box}>
