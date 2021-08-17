@@ -6,7 +6,19 @@
   padding: 80px 0;
 }
 
+.whyTBS {
+  padding: 0 30px;
+}
+
+.whyTBS div Image {
+  width: 120px;
+}
+
 .single_feature_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -34,13 +46,6 @@
   margin: 40px 0;
 }
 
-.whyTBS {
-  padding: 0 30px;
-}
-
-.whyTBS div Image {
-  width: 120px;
-}
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .mt-5,
