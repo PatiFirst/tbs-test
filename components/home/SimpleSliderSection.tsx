@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/router'
 import th from '../../locales/th/Home.json';
 import en from '../../locales/en/Home.json';
+import styles from '../../public/assets/css/simpleslider.module.css'
 
 const myLoader = ({src}:any) => {
     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
@@ -68,18 +69,18 @@ const SimpleSliderSection = () => {
         );
     }
     return (
-        <div className="simple_slider_section">
+        <div className={styles.simple_slider_section}>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-lg-5 col-md-6">
-                        <div className="simple_slider_heading_wrap">
-                            <div className="simple_slider_heading">
+                        <div className={styles.simple_slider_heading_wrap}>
+                            <div className={styles.simple_slider_heading}>
                                 <h2 dangerouslySetInnerHTML={{
                                         __html: t.SimpleSliderSection["Covering every purpose of SMS sending"],
                                     }}>
                                 </h2>
                             </div>
-                            <div className="simple_slider_heading_img">
+                            <div className={styles.simple_slider_heading_img}>
                                 <object
                                     ref={mainImage}
                                     type="image/svg+xml"
@@ -110,7 +111,7 @@ const SimpleSliderSection = () => {
                     </div>
                     <div className="col-lg-7 col-md-6">
                         <OwlCarousel
-                            className="simple_slider_wrapper"
+                            className={styles.simple_slider_wrapper}
                             items={2}
                             nav
                             dots={false}
@@ -145,7 +146,7 @@ const SimpleSliderSection = () => {
                             }}
                         >
                             <div className="item">
-                                <div className="simple_slider_item">
+                                <div className={styles.simple_slider_item}>
                                     <h4 dangerouslySetInnerHTML={{
                                             __html: t.SimpleSliderSection["Promoting marketing activities"],
                                         }}>
@@ -176,7 +177,7 @@ const SimpleSliderSection = () => {
                                 </div>
                             </div>
                             <div className="item">
-                                <div className="simple_slider_item">
+                                <div className={styles.simple_slider_item}>
                                     <h4>
                                         {t.SimpleSliderSection["Notification of expiry date"]}
                                     </h4>
@@ -206,7 +207,7 @@ const SimpleSliderSection = () => {
                                 </div>
                             </div>
                             <div className="item">
-                                <div className="simple_slider_item">
+                                <div className={styles.simple_slider_item}>
                                     <h4>
                                         {t.SimpleSliderSection["OTP for identity verification"]}
                                     </h4>
@@ -232,7 +233,7 @@ const SimpleSliderSection = () => {
                                 </div>
                             </div>
                             <div className="item">
-                                <div className="simple_slider_item">
+                                <div className={styles.simple_slider_item}>
                                     <h4>
                                         {t.SimpleSliderSection["Notification of delivery status"]}
                                     </h4>

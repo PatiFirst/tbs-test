@@ -3,6 +3,7 @@ import CountUp from 'react-countup';
 import { useRouter } from 'next/router'
 import th from '../../locales/th/Home.json';
 import en from '../../locales/en/Home.json';
+import styles from '../../public/assets/css/sms.module.css'
 
 const SmsSectionV2 = () => {
     const router = useRouter();
@@ -32,30 +33,30 @@ const SmsSectionV2 = () => {
 
     return(
         <div
-            className="sms_section lazyload"
+            className={`${styles.sms_section} lazyload`}
             data-bgset={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/mobile/promo_bg.jpg [(max-width:767px)] | ${process.env.NEXT_PUBLIC_BASE_ASSET}/img/promo_bg.png`}
         >
             <div className="container">
                 <div className="row">
                     <div className="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-12 ">
-                        <div className="sms_text">
+                        <div className={styles.sms_text}>
                             <h2>
                                 {t.SmsSection['Be confident in every instance of SMS sending']}
                             </h2>
                         </div>
                     </div>
                     <div className="col-md-12">
-                        <div className="sms_feature">
+                        <div className={styles.sms_feature}>
                             <div className="row">
                                 <div className="col-md-12">
-                                    <div className="sms_feature_item">
+                                    <div className={styles.sms_feature_item}>
                                         <p>
                                             {t.SmsSection['The number of SMS sent by us up to now']}
                                         </p>
                                         {duration !== 0 && (
                                             <div>
                                                 <CountUp
-                                                    className="account-balance"
+                                                    className={styles.account_balance}
                                                     start={numStart}
                                                     end={numEnd}
                                                     duration={duration}
@@ -73,7 +74,7 @@ const SmsSectionV2 = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="sms_feature_item">
+                                    <div className={styles.sms_feature_item}>
                                         <p>
                                             {t.SmsSection['The number of SMS sending on average / day']}
                                         </p>
@@ -81,7 +82,7 @@ const SmsSectionV2 = () => {
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <div className="sms_feature_item">
+                                    <div className={styles.sms_feature_item}>
                                         <p>
                                             {t.SmsSection['The average amount of time taken to send SMS Seconds']}
                                         </p>

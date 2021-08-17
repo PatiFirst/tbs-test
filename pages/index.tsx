@@ -43,15 +43,15 @@ const Homepage = () => {
             />
         <div className="page_wrapper">
           <HeroSection/>
-          {/* <PartnerSection/> */}
-          {/* <FeatureSection/> */}
+          <PartnerSection/>
+          <FeatureSection/>
           <ServiceSection/>
-          {/* <SimpleSliderSection/>
+          <SimpleSliderSection/>
           <GlobeSection/>
           <SmsSection/>
           <TestimonialSection/>
           <EduSection/>
-          <CtaSection/> */}
+          <CtaSection/>
         </div>
         {/* <BacktoTop/> */}
       </Layout>

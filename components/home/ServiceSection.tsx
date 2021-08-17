@@ -23,7 +23,7 @@ const ServiceSection = () =>{
                         <h2>{t.ServiceSection.homeserviceheader}</h2>
                         <div className={`d-flex ${styles.serviceTBS}`}>
                             <div className={styles.serviceDetail}>
-                                <div className="lazyload size-img">
+                                <div className={`lazyload ${styles.size_img}`}>
                                     <Image loader={myLoader} src="icn-Hservice01.svg" alt="service1" width={320} height={320}/>
                                 </div>
                                 <h3>Smart SMS Console</h3>
@@ -33,7 +33,7 @@ const ServiceSection = () =>{
                                 </Link>
                             </div>
                             <div className={styles.serviceDetail}>
-                                <div className="lazyload size-img">
+                                <div className={`lazyload ${styles.size_img}`}>
                                     <Image loader={myLoader} src="icn-Hservice02.svg" alt="service2" width={320} height={320}/>
                                 </div>
                                 <h3>SMS API</h3>
@@ -43,7 +43,7 @@ const ServiceSection = () =>{
                                 </Link>
                             </div>
                             <div className={styles.serviceDetail}>
-                                <div className="lazyload size-img">
+                                <div className={`lazyload ${styles.size_img}`}>
                                     <Image loader={myLoader} src="icn-Hservice03.svg" alt="service3" width={320} height={320}/>
                                 </div>
                                 <h3>OTP Service</h3>
@@ -53,7 +53,7 @@ const ServiceSection = () =>{
                                 </Link>
                             </div>
                             <div className={styles.serviceDetail}>
-                                <div className="lazyload size-img">
+                                <div className={`lazyload ${styles.size_img}`}>
                                     <Image loader={myLoader} src="icn-Hservice04.svg" alt="service4" width={320} height={320}/>
                                 </div>                   
                                 <h3>SMS Tracking</h3>
@@ -63,7 +63,7 @@ const ServiceSection = () =>{
                                 </Link>
                             </div>
                             <div className={styles.serviceDetail}>
-                                <div className="lazyload size-img">
+                                <div className={`lazyload ${styles.size_img}`}>
                                     <Image loader={myLoader} src="icn-Hservice05.svg" alt="service5" width={320} height={320}/>
                                 </div>
                                 <h3>Global SMS</h3>
@@ -73,7 +73,7 @@ const ServiceSection = () =>{
                                 </Link>
                             </div>
                             <div className={styles.serviceDetail}>
-                                <div className="lazyload size-img">
+                                <div className={`lazyload ${styles.size_img}`}>
                                     <Image loader={myLoader} src="icn-Hservice06.svg" alt="service6" width={320} height={320}/>
                                 </div>
                                 <h3>Location Based SMS</h3>

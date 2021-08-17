@@ -8,12 +8,13 @@ import { useRouter } from 'next/router';
 import th from '../public/locales/th/Header.json';
 import en from '../public/locales/en/Header.json';
 import appConfig from '../appConfig';
+import styles from '../public/assets/css/header.module.css'
 
 const myLoader = ({src}:any) => {
     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
 }
 const HeaderTopMenuMobile = () => (
-    <div className="site-mobile-menu-header">
+    <div className={styles.site_mobile_menu_header}>
         <div className="row">
             <div
                 className="col-8"
@@ -131,19 +132,19 @@ const Header = () => {
     };
 
     return(
-        <div ref={headerBar} className="header-bar-area position-fixed w-100 ">
+        <div ref={headerBar} className={`${styles.header_ba_area} position-fixed w-100`}>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 lg-none">
-                        <div className="header_top">
-                            <div className="header_contact_no">
+                        <div className={styles.header_top}>
+                            <div className={styles.header_contact_no}>
                                 <Link href="tel:027986000">
                                     <a>02-798-6000</a>
                                 </Link>
                             </div>
-                            <div className="header_select">
+                            <div className={styles.header_select}>
                                 <select
-                                    className="user_select"
+                                    className={styles.user_select}
                                     onChange={(e) =>
                                         onSwitchLanguage(e.currentTarget.value)
                                     }
@@ -166,97 +167,97 @@ const Header = () => {
                         </Link>
                     </div>
                     <div className="col-lg-6 col-md-6 col-3 text-right">
-                        <div className="site-navbar">
-                            <nav className="site-navigation text-center">
-                                <ul className="site-menu js-clone-nav d-none d-lg-block">
-                                    <li className="has-children">
-                                        <span className="active new_title_hover">
+                        <div className={styles.site_navbar}>
+                            <nav className={`${styles.site_navigation} text-center`}>
+                                <ul className={`${styles.site_menu} js-clone-nav d-none d-lg-block`}>
+                                    <li className={styles.has_children}>
+                                        <span className={`active ${styles.new_title_hover}`}>
                                             {t.header["Products"]}
                                         </span>
-                                        <ul className="dropdown">
+                                        <ul className={styles.dropdown}>
                                             <li className="listsub">
                                                 <Link href="/product">
-                                                    <a className="new_icon_title_menu_pro01 icon_logo_new_menu_width title_menu_margin_top_0">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_pro01} ${styles.icon_logo_new_menu_width} ${styles.title_menu_margin_top_0}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             {t.header["Our Strength"]}
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["The best tools for marketer & developer"]}
                                                         </p>
                                                     </a>
                                                 </Link>
                                             </li>
-                                            <h6 className="title_menu_left">
+                                            <h6 className={styles.title_menu_left}>
                                                 {t.header["For Marketer"]}
                                             </h6>
-                                            <li className="listsub li_width_700">
+                                            <li className={`${styles.listsub} ${styles.li_width_700}`}>
                                                 <Link href="/product/smart-sms-console">
-                                                    <a className="new_icon_title_menu_pro02 icon_logo_new_menu_width title_menu_margin_top_0 title_menu_margin_bottom_0">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_pro02} ${styles.icon_logo_new_menu_width} ${styles.title_menu_margin_top_0} ${styles.title_menu_margin_bottom_0}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             Smart SMS Console
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Send SMS messages on your own through a website. Easy to send and can be quickly analyzed."]}
                                                         </p>
                                                     </a>
                                                 </Link>
                                                 <Link href="/product/location-based-sms">
-                                                    <a className="new_icon_title_menu_pro04 icon_logo_new_menu_width title_menu_margin_top_0 title_menu_margin_bottom_0">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_pro04} ${styles.icon_logo_new_menu_width} ${styles.title_menu_margin_top_0} ${styles.title_menu_margin_bottom_0}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             Location Based SMS
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Enter your target group within specific areas. Send messages immediately without requiring phone numbers."]}
                                                         </p>
                                                     </a>
                                                 </Link>
                                             </li>
-                                            <li className="listsub li_width_700">
+                                            <li className={`${styles.listsub} ${styles.li_width_700}`}>
                                                 <Link href="/product/sms-tracking">
-                                                    <a className="new_icon_title_menu_pro03 icon_logo_new_menu_width title_menu_margin_top_0">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_pro03} ${styles.icon_logo_new_menu_width} ${styles.title_menu_margin_top_0}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             SMS Tracking
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Accurate SMS Campaign results that do not waste your marketing budget."]}
 
                                                         </p>
                                                     </a>
                                                 </Link>
                                                 <Link href="/product/global-sms">
-                                                    <a className="new_icon_title_menu_pro05 icon_logo_new_menu_width title_menu_margin_top_0">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_pro05} ${styles.icon_logo_new_menu_width} ${styles.title_menu_margin_top_0}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             Global SMS
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Send SMS and OTP messages globally at valuable prices."]}
 
                                                         </p>
                                                     </a>
                                                 </Link>
                                             </li>
-                                            <h6 className="title_menu_left">
+                                            <h6 className={styles.title_menu_left}>
                                                 {t.header["For Developer"]}
 
                                             </h6>
-                                            <li className="listsub li_width_700">
+                                            <li className={`${styles.listsub} ${styles.li_width_700}`}>
                                                 <Link href="/product/sms-api">
-                                                    <a className="new_icon_title_menu_pro06 icon_logo_new_menu_width title_menu_margin_top_0">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_pro06} ${styles.icon_logo_new_menu_width} ${styles.title_menu_margin_top_0}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             SMS API
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Simply by using SMS API, you can send messages through your platform."]}
 
                                                         </p>
                                                     </a>
                                                 </Link>
                                                 <Link href="/product/otp">
-                                                    <a className="new_icon_title_menu_pro07 icon_logo_new_menu_width title_menu_margin_top_0">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_pro07} ${styles.icon_logo_new_menu_width} ${styles.title_menu_margin_top_0}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             OTP Service
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["A secure, ready-to-use OTP Service that does not require additional programming."]}
 
                                                         </p>
@@ -267,43 +268,43 @@ const Header = () => {
                                     </li>
                                     <li>
                                         <Link href="/pricing">
-                                            <a className="active new_title_hover">
+                                            <a className={`active ${styles.new_title_hover}`}>
                                                 {t.header["Pricing"]}
 
                                             </a>
                                         </Link>
                                     </li>
-                                    <li className="has-children">
-                                        <span className="active new_title_hover">
+                                    <li className={styles.has_children}>
+                                        <span className={`active ${styles.new_title_hover}`}>
                                             {t.header["Database"]}
 
                                         </span>
-                                        <ul className="dropdown">
-                                            <li className="listsub">
+                                        <ul className={styles.dropdown}>
+                                            <li className={styles.listsub}>
 
                                                 <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_BLOG}/`}>
-                                                    <a className="new_icon_title_menu_resource01 icon_logo_new_menu_width title_menu_margin_top_0">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_resource01} ${styles.icon_logo_new_menu_width} ${styles.title_menu_margin_top_0}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             {t.header["Resources"]}
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["List of Resources"]}
                                                         </p>
                                                     </a>
                                                 </Link>
                                             </li>
-                                            <h6 className="title_menu_left">
+                                            <h6 className={styles.title_menu_left}>
                                                 {t.header["Tips and Knowledge"]}
 
                                             </h6>
-                                            <li className="listsub li_width_700">
+                                            <li className={`${styles.listsub} ${styles.li_width_700}`}>
                                                 <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_BLOG}/categories/marketing/`}>
-                                                    <a className="new_icon_title_menu_resource02 icon_logo_new_menu_width title_menu_margin_top_0 title_menu_margin_bottom_0">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_resource02} ${styles.icon_logo_new_menu_width} ${styles.title_menu_margin_top_0} ${styles.title_menu_margin_bottom_0}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             {t.header["Marketing"]}
 
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Marketing and SMS marketing knowledge"]}
 
                                                         </p>
@@ -311,56 +312,56 @@ const Header = () => {
                                                 </Link>
 
                                                 <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_BLOG}/categories/tech/`}>
-                                                    <a className="new_icon_title_menu_resource06 icon_logo_new_menu_width title_menu_margin_top_0 title_menu_margin_bottom_0">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_resource06} ${styles.icon_logo_new_menu_width} ${styles.title_menu_margin_top_0} ${styles.title_menu_margin_bottom_0}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             {t.header["Tech"]}
 
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Technical knowledge about SMS and related technology"]}
 
                                                         </p>
                                                     </a>
                                                 </Link>
                                             </li>
-                                            <li className="listsub li_width_700">
+                                            <li className={`${styles.listsub} ${styles.li_width_700}`}>
                                                 <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_BLOG}/categories/features/`}>
-                                                    <a className="new_icon_title_menu_resource07 icon_logo_new_menu_width title_menu_margin_top_0 title_menu_margin_bottom_0">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_resource07} ${styles.icon_logo_new_menu_width} ${styles.title_menu_margin_top_0} ${styles.title_menu_margin_bottom_0}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             {t.header["ThaiBulkSMS Features"]}
 
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Features introduction, update, and tutorial"]}
 
                                                         </p>
                                                     </a>
                                                 </Link>
                                                 <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_BLOG}/categories/use-cases/`}>
-                                                    <a className="new_icon_title_menu_resource03 icon_logo_new_menu_width title_menu_margin_top_0">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_resource03} ${styles.icon_logo_new_menu_width} ${styles.title_menu_margin_top_0}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             {t.header["Example Operations"]}
 
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Example of using SMS in business"]}
 
                                                         </p>
                                                     </a>
                                                 </Link>
                                             </li>
-                                            <h6 className="title_menu_left">
+                                            <h6 className={styles.title_menu_left}>
                                                 {t.header["Case Studies"]}
 
                                             </h6>
-                                            <li className="listsub li_width_700">
+                                            <li className={`${styles.listsub} ${styles.li_width_700}`}>
                                                 <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_BLOG}/categories/success-stories/`}>
-                                                    <a className="new_icon_title_menu_resource04 icon_logo_new_menu_width">
-                                                        <h6 className="text_title_left">
+                                                    <a className={`${styles.new_icon_title_menu_resource04} ${styles.icon_logo_new_menu_width}`}>
+                                                        <h6 className={styles.text_title_left}>
                                                             {t.header["Success Stories"]}
 
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Case studies of many top customers who have used ThaiBulkSMS"]}
 
                                                         </p>
@@ -371,51 +372,51 @@ const Header = () => {
                                         </ul>
                                     </li>
 
-                                    <li className="has-children">
-                                        <span className="active new_title_hover">
+                                    <li className={styles.has_children}>
+                                        <span className={`active ${styles.new_title_hover}`}>
                                             {t.header["Support"]}
 
                                         </span>
-                                        <div className="dropdown dropdown_padding_0 box_menu_support">
+                                        <div className={`${styles.dropdown} ${styles.dropdown_padding_0} ${styles.box_menu_support}`}>
                                             <div className="row">
-                                                <div className="col-7 menu_support_padding_20">
+                                                <div className={`col-7 ${styles.menu_support_padding_20}`}>
                                                     <ul>
-                                                        <li className="title_menu_margin_top_20 title_menu_padding_bottom_30">
+                                                        <li className={`${styles.title_menu_margin_top_20} ${styles.title_menu_padding_bottom_30}`}>
                                                             <Link href="/support/how-to-order" passHref>
-                                                                <span className="new_icon_title_menu_support01 icon_logo_new_menu_width">
-                                                                    <h6 className="text_title_left">
+                                                                <span className={`${styles.new_icon_title_menu_support01} ${styles.icon_logo_new_menu_width}`}>
+                                                                    <h6 className={styles.text_title_left}>
                                                                         {t.header["Ordering Methods"]}
 
                                                                     </h6>
-                                                                    <p className="txtSub text_sub_left">
+                                                                    <p className={`txtSub ${styles.text_sub_left}`}>
                                                                         {t.header["Ordering process for each payment channel"]}
 
                                                                     </p>
                                                                 </span>
                                                             </Link>
                                                         </li>
-                                                        <li className="title_menu_padding_bottom_30">
+                                                        <li className={styles.title_menu_padding_bottom_30}>
                                                             <Link href="/support/faq" passHref>
-                                                                <span className="new_icon_title_menu_support02 icon_logo_new_menu_width">
-                                                                    <h6 className="text_title_left">
+                                                                <span className={`${styles.new_icon_title_menu_support02} ${styles.icon_logo_new_menu_width}`}>
+                                                                    <h6 className={styles.text_title_left}>
                                                                         {t.header["Frequently Asked Questions"]}
 
                                                                     </h6>
-                                                                    <p className="txtSub text_sub_left">
+                                                                    <p className={`txtSub ${styles.text_sub_left}`}>
                                                                         {t.header["About ordering, general & technical problem"]}
 
                                                                     </p>
                                                                 </span>
                                                             </Link>
                                                         </li>
-                                                        <li className="title_menu_padding_bottom_30">
+                                                        <li className={styles.title_menu_padding_bottom_30}>
                                                             <Link href="/contact" passHref>
-                                                                <span className="new_icon_title_menu_support03 icon_logo_new_menu_width">
-                                                                    <h6 className="text_title_left">
+                                                                <span className={`${styles.new_icon_title_menu_support03} ${styles.icon_logo_new_menu_width}`}>
+                                                                    <h6 className={styles.text_title_left}>
                                                                         {t.header["Contact us"]}
 
                                                                     </h6>
-                                                                    <p className="txtSub text_sub_left">
+                                                                    <p className={`txtSub ${styles.text_sub_left}`}>
                                                                         {t.header["Contact to ThaiBulkSMS"]}
 
                                                                     </p>
@@ -424,16 +425,16 @@ const Header = () => {
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                <div className="col-5 bg_menu">
+                                                <div className={`col-5 ${styles.bg_menu}`}>
                                                     <ul>
-                                                        <h6 className="title_sub_menu_resource2">
+                                                        <h6 className={styles.title_sub_menu_resource2}>
                                                             {t.header["Contact"]}
 
                                                         </h6>
                                                         <li>
                                                             <Link href="tel:027986000" passHref>
-                                                                <h6 className="new_text_contact_phone">
-                                                                    <span className="new_text_margin_left">
+                                                                <h6 className={styles.new_text_contact_phone}>
+                                                                    <span className={styles.new_text_margin_left}>
                                                                         02-798-6000
                                                                     </span>
                                                                 </h6>
@@ -441,8 +442,8 @@ const Header = () => {
                                                         </li>
                                                         <li>
                                                             <Link href="mailto:contact@thaibulksms.com" passHref>
-                                                                <h6 className="new_text_contact_mail">
-                                                                    <span className="new_text_margin_left">
+                                                                <h6 className={styles.new_text_contact_mail}>
+                                                                    <span className={styles.new_text_margin_left}>
                                                                         contact@thaibulksms.com
                                                                     </span>
                                                                 </h6>
@@ -450,8 +451,8 @@ const Header = () => {
                                                         </li>
                                                         <li>
                                                             <Link href="https://www.facebook.com/ThaiBulkSMS" passHref>
-                                                                <h6 className="new_text_contact_fb">
-                                                                    <span className="new_text_margin_left">
+                                                                <h6 className={styles.new_text_contact_fb}>
+                                                                    <span className={styles.new_text_margin_left}>
                                                                         ThaiBulkSMS
                                                                     </span>
                                                                 </h6>
@@ -462,9 +463,9 @@ const Header = () => {
                                             </div>
                                         </div>
                                     </li>
-                                    <li className="has-children">
+                                    <li className={styles.has_children}>
                                         <Link href="" passHref>
-                                            <span className="active new_title_hover">
+                                            <span className={`active ${styles.new_title_hover}`}>
                                                 {t.header["For Developers"]}
 
                                             </span>
@@ -473,11 +474,11 @@ const Header = () => {
                                             <li className="menu_dev_padding_bottom_top_20">
                                                 <Link href="/developer" passHref>
                                                     <span className="new_icon_title_menu_dev01 icon_logo_new_menu_width">
-                                                        <h6 className="text_title_left">
+                                                        <h6 className={styles.text_title_left}>
                                                             {t.header["Download Guide"]}
 
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Manual for SMS API & OTP Service with example"]}
 
                                                         </p>
@@ -487,11 +488,11 @@ const Header = () => {
                                             <li className="menu_dev_padding_20">
                                                 <Link href="/developer/#ex_sdk" passHref>
                                                     <span className="new_icon_title_menu_dev02 icon_logo_new_menu_width">
-                                                        <h6 className="text_title_left">
+                                                        <h6 className={styles.text_title_left}>
                                                             {t.header["Download Example SDK"]}
 
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Choose the programing language as you want"]}
 
                                                         </p>
@@ -503,10 +504,10 @@ const Header = () => {
                                                     href={`${process.env.NEXT_PUBLIC_WEB_URL_DEVELOPER}`} passHref
                                                 >
                                                     <span className="new_icon_title_menu_dev03 icon_logo_new_menu_width">
-                                                        <h6 className="text_title_left">
+                                                        <h6 className={styles.text_title_left}>
                                                             API References
                                                         </h6>
-                                                        <p className="txtSub text_sub_left">
+                                                        <p className={`txtSub ${styles.text_sub_left}`}>
                                                             {t.header["Include SMS API and OTP API"]}
 
                                                         </p>
@@ -515,8 +516,8 @@ const Header = () => {
                                             </li>
                                         </ul>
                                     </li>
-                                    <li className="has-children">
-                                        <span className="active new_title_hover">
+                                    <li className={styles.has_children}>
+                                        <span className={`active ${styles.new_title_hover}`}>
                                             {t.header["About the Company"]}
 
                                         </span>
@@ -527,11 +528,11 @@ const Header = () => {
                                                         <li className="menu_dev_padding_bottom_top_20">
                                                             <Link href="/why-thaibulksms" passHref>
                                                                 <span className="new_icon_title_menu_about01 icon_logo_new_menu_width">
-                                                                    <h6 className="text_title_left">
+                                                                    <h6 className={styles.text_title_left}>
                                                                         {t.header["Why use ThaiBulkSMS?"]}
 
                                                                     </h6>
-                                                                    <p className="txtSub text_sub_left">
+                                                                    <p className={`txtSub ${styles.text_sub_left}`}>
                                                                         {t.header["How is sending SMS with ThaiBulkSMS better than others?"]}
 
                                                                     </p>
@@ -541,11 +542,11 @@ const Header = () => {
                                                         <li className="li_padding_bottom20">
                                                             <Link href="/contact" passHref>
                                                                 <span className="new_icon_title_menu_about02 icon_logo_new_menu_width">
-                                                                    <h6 className="text_title_left">
+                                                                    <h6 className={styles.text_title_left}>
                                                                         {t.header["Contact us"]}
 
                                                                     </h6>
-                                                                    <p className="txtSub text_sub_left">
+                                                                    <p className={`txtSub ${styles.text_sub_left}`}>
                                                                         {t.header["Contact to ThaiBulkSMS"]}
 
                                                                     </p>
@@ -555,11 +556,11 @@ const Header = () => {
                                                         <li className="li_padding_bottom20">
                                                             <Link href="/reseller" passHref>
                                                                 <span className="new_icon_title_menu_about03 icon_logo_new_menu_width">
-                                                                    <h6 className="text_title_left">
+                                                                    <h6 className={styles.text_title_left}>
                                                                         Reseller
                                                                         Program
                                                                     </h6>
-                                                                    <p className="txtSub text_sub_left">
+                                                                    <p className={`txtSub ${styles.text_sub_left}`}>
                                                                         {t.header["Special reseller program from ThaiBulkSMS"]}
 
                                                                     </p>
@@ -572,11 +573,11 @@ const Header = () => {
                                                                 passHref={true}
                                                             >
                                                                 <span className="new_icon_title_menu_about04 icon_logo_new_menu_width">
-                                                                    <h6 className="text_title_left">
+                                                                    <h6 className={styles.text_title_left}>
                                                                         {t.header["Member"]}
 
                                                                     </h6>
-                                                                    <p className="txtSub text_sub_left">
+                                                                    <p className={`txtSub ${styles.text_sub_left}`}>
                                                                         {t.header["Member Register Or Login"]}
 
                                                                     </p>
@@ -592,7 +593,7 @@ const Header = () => {
                                                        </h6>
                                                         <li>
                                                             <Link href="tel:027986000" passHref>
-                                                                <h6 className="new_text_contact_phone">
+                                                                <h6 className={styles.new_text_contact_phone}>
                                                                     <span className="new_text_margin_left">
                                                                         02-798-6000
                                                                     </span>
@@ -641,7 +642,7 @@ const Header = () => {
                                 </span>
                             </div>
                             <div className="site-mobile-menu">
-                                <div className="site-mobile-menu-header">
+                                <div className={styles.site_mobile_menu_header}>
                                     <div className="row">
                                         <div className="col-8">
                                             <Link href="/" >

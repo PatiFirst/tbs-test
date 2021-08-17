@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useRouter } from 'next/router'
 import th from '../../locales/th/Home.json';
 import en from '../../locales/en/Home.json';
+import styles from '../../public/assets/css/cta.module.css'
 
 
 const CtaSection = () =>{
@@ -11,14 +12,14 @@ const CtaSection = () =>{
     const t = locale === 'th' ? th : en;
 
     return(
-        <div className="cta_section">
+        <div className={styles.cta_section}>
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-xl-12"></div>
             </div>
             <div className="row align-items-center">
                 <div className="col-xl-6 col-lg-12">
-                    <div className="cta-text">
+                    <div className={styles.cta_text}>
                         <h3 dangerouslySetInnerHTML={{
                                 __html: t.CtaSection["Improve the effectiveness of<br/>your business With SMS from ThaiBulkSMS"],
                             }}>
@@ -26,7 +27,7 @@ const CtaSection = () =>{
                     </div>
                 </div>
                 <div className="col-xl-6 col-lg-12">
-                    <ul className="cta-btn before-footer">
+                    <ul className={`${styles.cta_btn} ${styles.before_footer}`}>
                         <li>
                             <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_ACCOUNT}/register/`}>
                                 <a className="btn v3">

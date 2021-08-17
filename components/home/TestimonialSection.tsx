@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router'
 import th from '../../locales/th/Home.json';
 import en from '../../locales/en/Home.json';
+import styles from '../../public/assets/css/testimonial.module.css'
 
 const OwlCarousel = dynamic(import('react-owl-carousel'), {
     ssr: false,
@@ -18,7 +19,7 @@ const TestimonialSection = () => {
     const t = locale === 'th' ? th : en;
 
     return(
-        <div className="testimonial_section">
+        <div className={styles.testimonial_section}>
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
@@ -32,7 +33,7 @@ const TestimonialSection = () => {
             <div className="row">
                 <div className="col-lg-10 offset-lg-1">
                     <OwlCarousel
-                        className="testimonial_slider"
+                        className={styles.testimonial_slider}
                         items={1}
                         nav={true}
                         dots={false}
@@ -58,12 +59,12 @@ const TestimonialSection = () => {
                         }}
                     >
                         <div className="item">
-                            <div className="testimonial_item">
-                                <p className="client_quote">
+                            <div className={styles.testimonial_item}>
+                                <p className={styles.client_quote}>
                                     {t.TestimonialSection["ThaiBulkSMS is an SMS-sending service provider which makes sure that sending text messages to customers is very easy and convenient because the service allows us to send the messages by ourselves without having to go through an intermediary. Plus, reports on message sending are provided, enabling more accurate assessment of the results."]}
                                 </p>
-                                <div className="client_info">
-                                    <div className="client_name">
+                                <div className={styles.client_info}>
+                                    <div className={styles.client_name}>
                                         <h6>
                                             {t.TestimonialSection["Syn Mun Kong Insurance PLC"]}
                                         </h6>
@@ -72,12 +73,12 @@ const TestimonialSection = () => {
                             </div>
                         </div>
                         <div className="item">
-                            <div className="testimonial_item">
-                                <p className="client_quote">
+                            <div className={styles.testimonial_item}>
+                                <p className={styles.client_quote}>
                                     {t.TestimonialSection["The prices represent an excellent value considering the quality of the service. The service meets all our expectations including measurement of results, viewing of reports and controlling budgets which are adjustable in each month or until the credits run out."]}
                                 </p>
-                                <div className="client_info">
-                                    <div className="client_name">
+                                <div className={styles.client_info}>
+                                    <div className={styles.client_name}>
                                         <h6>
                                             {t.TestimonialSection["Smart One Logistics Co., Ltd."]}
                                         </h6>
@@ -87,12 +88,12 @@ const TestimonialSection = () => {
                             </div>
                         </div>
                         <div className="item">
-                            <div className="testimonial_item">
-                                <p className="client_quote">
+                            <div className={styles.testimonial_item}>
+                                <p className={styles.client_quote}>
                                     {t.TestimonialSection["The service ensures that marketing by SMS can be executed easily and speedily. The staff are also available to provide helpful advice and rapid solutions to various problems."]}
                                 </p>
-                                <div className="client_info">
-                                    <div className="client_name">
+                                <div className={styles.client_info}>
+                                    <div className={styles.client_name}>
                                         <h6>
                                             {t.TestimonialSection["National Housing Authority of Thailand"]}
                                         </h6>

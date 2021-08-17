@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/router'
 import th from '../../locales/th/Home.json';
 import en from '../../locales/en/Home.json';
+import styles from '../../public/assets/css/partner.module.css'
 
 const OwlCarousel = dynamic(import('react-owl-carousel'), {
     ssr: false,
@@ -18,12 +19,12 @@ const PartnerSection = () =>{
     const { locale } = router;
     const t = locale === 'th' ? th : en;
     return(
-        <div className="partner_section">
+        <div className={styles.partner_section}>
         <div className="container">
             <div className="row">
                 <div className="col-md-12">
                     <h6
-                        className="partner_title"
+                        className={styles.partner_title}
                         style={{ textTransform: 'none' }}
                     >
                         {t.PartnerSection['Leading brands that trust ThaiBulkSMS']}
@@ -31,7 +32,7 @@ const PartnerSection = () =>{
                 </div>
                 <div className="col-md-12">
                     <OwlCarousel
-                        className="partner_wrap"
+                        className={styles.partner_wrap}
                         items={5}
                         nav={false}
                         dots={false}
@@ -55,35 +56,35 @@ const PartnerSection = () =>{
                         }}
                     >
                         <div className="item">
-                            <div className="partner_item">
-                                <div className="lazyload size-img">
+                            <div className={styles.partner_item}>
+                                <div className={`lazyload ${styles.size_img}`}>
                                     <Image loader={myLoader} src="partner_logo_1.png" alt="partnerlogo1" width={190} height={130}/>
                                 </div>
                             </div>
                         </div>
                         <div className="item">
-                            <div className="partner_item">
+                            <div className={styles.partner_item}>
                                 <div className="lazyload">
                                     <Image loader={myLoader} src="partner_logo_2.png" alt="partnerlogo2" width={190} height={130}/>
                                 </div>
                             </div>
                         </div>
                         <div className="item">
-                            <div className="partner_item">
+                            <div className={styles.partner_item}>
                                 <div className="lazyload">
                                     <Image loader={myLoader} src="partner_logo_3.png" alt="partnerlogo3" width={190} height={130}/>
                                 </div>
                             </div>
                         </div>
                         <div className="item">
-                            <div className="partner_item">
+                            <div className={styles.partner_item}>
                                 <div className="lazyload">
                                     <Image loader={myLoader} src="partner_logo_4.png" alt="partnerlogo4" width={190} height={130}/>
                                 </div>
                             </div>
                         </div>
                         <div className="item">
-                            <div className="partner_item">
+                            <div className={styles.partner_item}>
                                 <div className="lazyload">
                                     <Image loader={myLoader} src="partner_logo_5.png" alt="partnerlogo5" width={190} height={130}/>
                                 </div>

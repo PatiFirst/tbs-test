@@ -4,6 +4,7 @@ import Image from "next/dist/client/image";
 import { useRouter } from 'next/router'
 import th from '../../locales/th/Home.json';
 import en from '../../locales/en/Home.json';
+import styles from '../../public/assets/css/globe.module.css'
 
 const myLoader = ({src}:any) => {
     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
@@ -14,11 +15,11 @@ const GlobeSection = () => {
   const { locale } = router;
   const t = locale === 'th' ? th : en;
   return (
-    <div className="globe_section">
+    <div className={styles.globe_section}>
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12 col-12 order-lg-1 order-md-2 order-2">
-            <div className="globe_text">
+            <div className={styles.globe_text}>
               <h2 
               dangerouslySetInnerHTML={{
                 __html: t.GlobeSection["Free SMS and OTP sending worldwide at a great value price."],
@@ -35,7 +36,7 @@ const GlobeSection = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-12 col-12 order-lg-2 order-md-1 order-1">
-            <div className="globe_img">
+            <div className={styles.globe_img}>
               <div className="lazyload">
                 <Image loader={myLoader} src="img_10.png" alt="globeimg" width={500} height={500}/>
               </div>

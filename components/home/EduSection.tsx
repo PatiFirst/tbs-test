@@ -4,6 +4,7 @@ import Image from "next/dist/client/image";
 import { useRouter } from 'next/router'
 import th from '../../locales/th/Home.json';
 import en from '../../locales/en/Home.json';
+import styles from '../../public/assets/css/edu.module.css'
 
 const myLoader = ({src}:any) => {
     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
@@ -15,11 +16,11 @@ const EduSection = () => {
     const t = locale === 'th' ? th : en;
 
     return(
-        <div className="edu_section">
+        <div className={styles.edu_section}>
         <div className="container">
             <div className="row align-items-center">
-                <div className="col-lg-6 col-md-12 col-sm-12 col-md-push-6">
-                    <div className="edu_text">
+                <div className="col-lg-6 col-md-12 col-sm-12 col-md-push-6 order-1 order-xl-2">
+                    <div className={styles.edu_text}>
                         <h2>
                             {t.EduSection["Interesting tips and knowledge regarding SMS and marketing"]}
                         </h2>
@@ -29,16 +30,16 @@ const EduSection = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="col-lg-6 col-md-12 col-sm-12 col-md-pull-6">
+                <div className="col-lg-6 col-md-12 col-sm-12 col-md-pull-6 order-2 order-xl-1">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6 offset-md-3 offset-lg-0 col-sm-10 offset-sm-1">
-                            <div className="edu_box">
+                            <div className={styles.edu_box}>
                                 <Link href="https://bit.ly/3hEL9ac">
                                 <a target="_blank" rel="noopener">
                                     <div className="lazyload">
                                         <Image loader={myLoader} src="img_7.png" alt="edu1" width={280} height={245}/>
                                     </div>             
-                                    <div className="edu_box_text">
+                                    <div className={styles.edu_box_text}>
                                         <p>
                                             {t.EduSection["Don’t miss!! Marketing trends in 2020."]}
                                         </p>
@@ -50,13 +51,13 @@ const EduSection = () => {
                         <div className="col-lg-6 col-md-12">
                             <div className="row">
                                 <div className="col-lg-12 col-md-6 offset-md-3 offset-lg-0 col-sm-10 offset-sm-1">
-                                    <div className="edu_box">
+                                    <div className={styles.edu_box}>
                                         <Link href="https://bit.ly/2RDqTuQ">
                                         <a target="_blank" rel="noopener">
                                             <div className="lazyload">
                                                 <Image loader={myLoader} src="img_8.png" alt="edu8" width={280} height={245}/>
                                             </div>  
-                                            <div className="edu_box_text">
+                                            <div className={styles.edu_box_text}>
                                                 <p>
                                                     {t.EduSection["4 ways to communicate with customers most effectively Conclude your sale with testimonials."]}
                                                 </p>
@@ -66,13 +67,13 @@ const EduSection = () => {
                                     </div>
                                 </div>
                                 <div className="col-lg-12 col-md-6 offset-md-3 offset-lg-0 col-sm-10 offset-sm-1">
-                                    <div className="edu_box">
+                                    <div className={styles.edu_box}>
                                         <Link href="https://bit.ly/32L9VRT">
                                         <a target="_blank" rel="noopener">
                                             <div className="lazyload">
                                                 <Image loader={myLoader} src="img_9.png" alt="edu9" width={280} height={245}/>
                                             </div>
-                                            <div className="edu_box_text">
+                                            <div className={styles.edu_box_text}>
                                                 <p>
                                                     {t.EduSection["Simple to do but the results will exceed expectations."]}
                                                 </p>

@@ -619,6 +619,38 @@ a:hover {
   max-width: 1280px;
 }
 
+.btn.v3 {
+  color: #fff !important;
+  background: -webkit-gradient( linear, left bottom, left top, from(rgba(38, 111, 253, 1)), color-stop(35%, rgba(44, 149, 241, 1)), to(rgba(48, 175, 231, 1)));
+  background: -o-linear-gradient( bottom, rgba(38, 111, 253, 1) 0%, rgba(44, 149, 241, 1) 35%, rgba(48, 175, 231, 1) 100%);
+  background: linear-gradient( 0deg, rgba(38, 111, 253, 1) 0%, rgba(44, 149, 241, 1) 35%, rgba(48, 175, 231, 1) 100%);
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 18px;
+  border-radius: 12px;
+  padding: 20px 40px;
+  font-weight: 500;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  border: none;
+  min-width: 200px;
+}
+.btn.v5 {
+  color: #31b1e7 !important;
+  background: transparent;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 18px;
+  border: 2px solid #31b1e7;
+  border-radius: 12px;
+  padding: 20px 40px;
+  font-weight: 500;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .container {

@@ -82,7 +82,7 @@
 //   //     setTimeout(function() {
 
 //   //         var counter = 0;
-//   //         $('.site-mobile-menu .has-children').each(function() {
+//   //         $('.site-mobile-menu .has_children').each(function() {
 //   //             var $this = $(this);
 
 //   //             $this.prepend('<span class="arrow-collapse collapsed">');
