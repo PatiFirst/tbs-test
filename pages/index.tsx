@@ -18,7 +18,7 @@ const SmsSection = dynamic(() => import('../components/home/SmsSection'))
 const TestimonialSection = dynamic(() => import('../components/home/TestimonialSection'))
 const EduSection = dynamic(() => import('../components/home/EduSection'))
 const CtaSection = dynamic(() => import('../components/home/CtaSection'))
-const BacktoTop = dynamic(() => import('../components/BacktoTop'))
+// const BacktoTop = dynamic(() => import('../components/BacktoTop'))
 
 const Homepage = () => {
   const router = useRouter();

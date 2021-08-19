@@ -4,7 +4,7 @@ import Cookie from 'js-cookie';
 import { DefaultSeo } from 'next-seo';
 import { seo } from '../components/seo/defaultseo';
 import {useRouter} from 'next/router'
-import Proloader from '../components/Proloader';
+// import Proloader from '../components/Proloader';
 import '../public/assets/css/globals.css'
 // import '../public/assets/css/bootstrap.min.css'
 
