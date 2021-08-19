@@ -6,6 +6,7 @@ import { seo } from '../components/seo/defaultseo';
 import {useRouter} from 'next/router'
 import Proloader from '../components/Proloader';
 import '../public/assets/css/globals.css'
+import '../public/assets/css/owl.carousel.css'
 // import '../public/assets/css/bootstrap.min.css'
 
 

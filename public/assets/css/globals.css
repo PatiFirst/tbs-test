@@ -651,6 +651,57 @@ a:hover {
   transition: 0.4s;
 }
 
+.btn.v9 {
+  color: #fff !important;
+  background: linear-gradient( 0deg, rgba(38, 111, 253, 1) 0%, rgba(44, 149, 241, 1) 35%, rgba(48, 175, 231, 1) 100%);
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 18px;
+  border-radius: 12px;
+  padding: 20px 45px;
+  font-weight: 500;
+  transition: 0.4s;
+  border: none;
+}
+
+.simple_slider_global .owl-nav {
+  padding-left: 20px;
+}
+
+.simple_slider_global .owl-prev {
+  bottom: -60px;
+  top: auto;
+  left: 0px;
+  width: 70px;
+  height: 70px;
+}
+
+.simple_slider_global .owl-next {
+  bottom: -60px;
+  top: auto;
+  left: 90px;
+  width: 70px;
+  height: 70px;
+}
+
+.simple_slider_global .owl-next i {
+  font-size: 50px;
+  right: -2px;
+  top: -3px;
+}
+
+.simple_slider_global .owl-prev i {
+  font-size: 50px;
+  left: -2px;
+  top: -3px;
+}
+
+.simple_slider_global .owl-nav.disabled {
+  position: relative;
+  left: 36px;
+  bottom: -40px;
+}
+
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .container {

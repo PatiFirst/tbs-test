@@ -132,8 +132,8 @@ const Header = () => {
     };
 
     return(
-        <div ref={headerBar} className={`${styles.header_ba_area} position-fixed w-100`}>
-            <div className="container">
+        <div ref={headerBar} className={`${styles.header_bar_area} position-fixed w-100`}>
+            <div className={`container ${styles.header_container}`}>
                 <div className="row">
                     <div className="col-md-12 lg-none">
                         <div className={styles.header_top}>
@@ -158,13 +158,14 @@ const Header = () => {
                 </div>
                 <div className="row align-items-center">
                     <div className="col-lg-3 col-md-6 col-9">
-                        <Link href="/">
-                            <a className="navbar-brand p-0 m-0">
+                        {/* <Link href="/">
+                            <a className={`${styles.navbar_brand} p-0 m-0`}>
                                 <div>
                                     <Image loader={myLoader} src="logo_1.png" alt="logo1" width={270} height={34}/>
                                 </div>
                             </a>
-                        </Link>
+                        </Link> */}
+                        <h3>Jojo</h3>
                     </div>
                     <div className="col-lg-6 col-md-6 col-3 text-right">
                         <div className={styles.site_navbar}>
@@ -1234,6 +1235,7 @@ const Header = () => {
                         </div>
                     </div>
                     {/* end new sub menu mobile */}
+
                     <div className="col-lg-3 lg-none">
                         <div className="menu_btn">
                             <ul>

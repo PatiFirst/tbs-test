@@ -6,6 +6,7 @@ import { useRouter } from 'next/router'
 import th from '../../locales/th/Home.json';
 import en from '../../locales/en/Home.json';
 import styles from '../../public/assets/css/simpleslider.module.css'
+// import '../../public/assets/css/owl.carousel.css'
 
 const myLoader = ({src}:any) => {
     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
@@ -111,7 +112,7 @@ const SimpleSliderSection = () => {
                     </div>
                     <div className="col-lg-7 col-md-6">
                         <OwlCarousel
-                            className={styles.simple_slider_wrapper}
+                            className={`${styles.simple_slider_wrapper} simple_slider_global`}
                             items={2}
                             nav
                             dots={false}
@@ -145,7 +146,7 @@ const SimpleSliderSection = () => {
                                 },
                             }}
                         >
-                            <div className="item">
+                            <div className={styles.item}>
                                 <div className={styles.simple_slider_item}>
                                     <h4 dangerouslySetInnerHTML={{
                                             __html: t.SimpleSliderSection["Promoting marketing activities"],
@@ -163,7 +164,7 @@ const SimpleSliderSection = () => {
                     </Link> */}
                                     </p>
                                     <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_ACCOUNT}/register/`}>                                   
-                                    <a className="btn v9">
+                                    <a className={`btn v9 ${styles.simple_slider_btn}`}>
                                         {t.SimpleSliderSection["Try SMS sending for free"]}
                                     </a>
                                     </Link>
@@ -176,7 +177,7 @@ const SimpleSliderSection = () => {
                                     </span>
                                 </div>
                             </div>
-                            <div className="item">
+                            <div className={styles.item}>
                                 <div className={styles.simple_slider_item}>
                                     <h4>
                                         {t.SimpleSliderSection["Notification of expiry date"]}
@@ -193,7 +194,7 @@ const SimpleSliderSection = () => {
                     </Link> */}
                                     </p>
                                     <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_ACCOUNT}/register/`}>                        
-                                    <a className="btn v9">
+                                    <a className={`btn v9 ${styles.simple_slider_btn}`}>
                                         {t.SimpleSliderSection["Try SMS sending for free"]}
                                     </a>
                                     </Link>
@@ -206,7 +207,7 @@ const SimpleSliderSection = () => {
                                     </span>
                                 </div>
                             </div>
-                            <div className="item">
+                            <div className={styles.item}>
                                 <div className={styles.simple_slider_item}>
                                     <h4>
                                         {t.SimpleSliderSection["OTP for identity verification"]}
@@ -219,7 +220,7 @@ const SimpleSliderSection = () => {
                                     </p>
                                     <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_ACCOUNT}/register/`}>
                                     
-                                    <a className="btn v9">
+                                    <a className={`btn v9 ${styles.simple_slider_btn}`}>
                                         {t.SimpleSliderSection["Try SMS sending for free"]}
                                     </a>
                                     </Link>
@@ -232,7 +233,7 @@ const SimpleSliderSection = () => {
                                     </span>
                                 </div>
                             </div>
-                            <div className="item">
+                            <div className={styles.item}>
                                 <div className={styles.simple_slider_item}>
                                     <h4>
                                         {t.SimpleSliderSection["Notification of delivery status"]}
@@ -249,7 +250,7 @@ const SimpleSliderSection = () => {
                     </Link> */}
                                     </p>
                                     <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_ACCOUNT}/register/`}>
-                                    <a className="btn v9">
+                                    <a className={`btn v9 ${styles.simple_slider_btn}`}>
                                         {t.SimpleSliderSection["Try SMS sending for free"]}
                                     </a>
                                     </Link>
@@ -262,8 +263,8 @@ const SimpleSliderSection = () => {
                                     </span>
                                 </div>
                             </div>
-                            <div className="item">
-                                <div className="simple_slider_item a">
+                            <div className={styles.item}>
+                                <div className={styles.simple_slider_item}>
                                     <h4>
                                         {t.SimpleSliderSection["Notification of special privilege for members"]}
                                     </h4>
@@ -279,7 +280,7 @@ const SimpleSliderSection = () => {
                     </Link> */}
                                     </p>
                                     <Link href={`${process.env.NEXT_PUBLIC_WEB_URL_ACCOUNT}/register/`}>  
-                                    <a className="btn v9">
+                                    <a className={`btn v9 ${styles.simple_slider_btn}`}>
                                         {t.SimpleSliderSection["Try SMS sending for free"]}
                                     </a>
                                     </Link>
