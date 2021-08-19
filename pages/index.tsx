@@ -27,7 +27,7 @@ const Homepage = () => {
 
   return(
     <React.Fragment>
-      <Layout>
+      {/* <Layout> */}
         <Head>
           <meta name="keywords" content={t.meta.keywords} />
           <meta name="author" content="" />
@@ -54,7 +54,7 @@ const Homepage = () => {
           <CtaSection/>
         </div>
         {/* <BacktoTop/> */}
-      </Layout>
+      {/* </Layout> */}
     </React.Fragment>
   )
 }
