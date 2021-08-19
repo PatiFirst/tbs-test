@@ -9,11 +9,11 @@ const Layout = (props:any) => {
             {props.children}
             {/* <Footer/> */}
             {/* <BannerCookie/> */}
-            <div
+            {/* <div
                 className="fb-customerchat"
                 data-attribution="setup_tool"
                 data-page_id={process.env.NEXT_PUBLIC_FB_PAGEID}
-            ></div>
+            ></div> */}
         </div>
     )
 }
