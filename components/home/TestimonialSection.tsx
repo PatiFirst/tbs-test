@@ -33,7 +33,7 @@ const TestimonialSection = () => {
             <div className="row">
                 <div className="col-lg-10 offset-lg-1">
                     <OwlCarousel
-                        className={styles.testimonial_slider}
+                        className={`${styles.testimonial_slider} testimonial_global`}
                         items={1}
                         nav={true}
                         dots={false}
@@ -58,7 +58,7 @@ const TestimonialSection = () => {
                             },
                         }}
                     >
-                        <div className="item">
+                        <div className={styles.item}>
                             <div className={styles.testimonial_item}>
                                 <p className={styles.client_quote}>
                                     {t.TestimonialSection["ThaiBulkSMS is an SMS-sending service provider which makes sure that sending text messages to customers is very easy and convenient because the service allows us to send the messages by ourselves without having to go through an intermediary. Plus, reports on message sending are provided, enabling more accurate assessment of the results."]}
@@ -72,7 +72,7 @@ const TestimonialSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="item">
+                        <div className={styles.item}>
                             <div className={styles.testimonial_item}>
                                 <p className={styles.client_quote}>
                                     {t.TestimonialSection["The prices represent an excellent value considering the quality of the service. The service meets all our expectations including measurement of results, viewing of reports and controlling budgets which are adjustable in each month or until the credits run out."]}
@@ -87,7 +87,7 @@ const TestimonialSection = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="item">
+                        <div className={styles.item}>
                             <div className={styles.testimonial_item}>
                                 <p className={styles.client_quote}>
                                     {t.TestimonialSection["The service ensures that marketing by SMS can be executed easily and speedily. The staff are also available to provide helpful advice and rapid solutions to various problems."]}

@@ -189,14 +189,6 @@
   font-size: 18px;
 }
 
-.owl-prev {
-  left: -35px;
-}
-
-.owl-next {
-  right: -35px;
-}
-
 .slider_item p {
   font-size: 14px;
 }
@@ -238,31 +230,7 @@
   font-size: 15px;
 }
 
-.simple_slider_wrapper .owl-prev,
-.simple_slider_wrapper .owl-next {
-  width: 50px;
-  height: 50px;
-}
 
-.simple_slider_wrapper .owl-next i,
-.simple_slider_wrapper .owl-prev i {
-  font-size: 40px;
-}
-
-.simple_slider_wrapper .owl-nav {
-  padding-left: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: relative;
-  bottom: -25px;
-}
-.simple_slider_wrapper .owl-next {
-  left: 60px;
-}
 
 .simple_slider_item {
   -webkit-box-shadow: none;
@@ -276,7 +244,16 @@
 }
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
-.simple_slider_heading_img {
+  .simple_slider_section {
+    padding: 30px 0;
+    height: 560px;
+  }
+  
+  .simple_slider_item div{
+    display: none;
+  }
+
+  .simple_slider_heading_img {
   display: none;
 }
 
@@ -305,7 +282,7 @@
   min-height: 100px;
   margin: 10px 0 10px;
 }
-.simple_slider_item a.btn.v9{
+.simple_slider_item a.simple_slider_btn{
   font-size: 16px;
 }
 
@@ -315,31 +292,6 @@
   text-align: center !important;
 }
 
-.simple_slider_wrapper .owl-nav {
-  padding-left: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: relative;
-  bottom: 30px;
-}
-
-.simple_slider_wrapper .owl-prev,
-.simple_slider_wrapper .owl-next {
-  position: relative;
-  margin: 0 10px;
-  width: 50px;
-  height: 50px;
-  bottom: 0px;
-}
-
-.simple_slider_wrapper .owl-next {
-  left: 0;
-}
-
 .simple_slider_item {
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -347,38 +299,7 @@
   margin: 0 auto;
 }
 
-.simple_slider_section {
-  padding: 30px 0;
-  height: 560px;
-}
-
-.simple_slider_item div{
-  display: none;
-}
-
 .simple_slider_wrapper {
   padding: 10px 0;
-}
-.simple_slider_item Link a.btn.v9 {
-  font-size: 16px;
-}
-
-.simple_slider_wrapper .owl-next i {
-  display: none;
-  /* font-size: 36px;
-  right: -2px;
-  top: -1px; */
-}
-.simple_slider_wrapper .owl-prev i {
-  display: none;
-  /* font-size: 36px;
-  left: -2px;
-  top: -1px; */
-}
-
-.simple_slider_section .simple_slider_wrapper .owl-nav {
-  bottom: 50px;
-  display: none;
-  /* bottom: 80px; */
 }
 }
